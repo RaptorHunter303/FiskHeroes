@@ -1,0 +1,27 @@
+{
+  "parent": "fiskheroes:hero_speedster",
+  "resources": {
+    "layer1": "fiskheroes:savitar_layer1",
+    "layer2": "fiskheroes:savitar_layer2",
+    "layer1_lights": "fiskheroes:savitar_layer1_lights",
+    "layer2_lights": "fiskheroes:savitar_layer2_lights",
+    "metal": "fiskheroes:savitar_metal"
+  },
+  "lights": {
+    "renderLayer": {
+      "LEGGINGS": "layer2_lights"
+    },
+    "default": "layer1_lights"
+  },
+  "custom": {
+    "fiskheroes:trail": {
+      "type": "fiskheroes:lightning_white",
+      "conditionals": ["vars:SPEEDING"]
+    },
+    "fiskheroes:metal_heat": {
+      "applicable": ["HELMET", "CHESTPLATE", "LEGGINGS", "BOOTS"],
+      "texture": "metal",
+      "data": "fiskheroes:metal_heat"
+    }
+  }
+}

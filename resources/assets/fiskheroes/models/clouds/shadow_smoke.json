@@ -1,0 +1,9 @@
+{
+  "color": {
+    "red,green": {
+      "base": 0.1,
+      "rand": 0.1
+    },
+    "blue": "red * 1.2"
+  }
+}

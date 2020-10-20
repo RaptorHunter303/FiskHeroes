@@ -1,0 +1,66 @@
+package com.fiskmods.heroes;
+
+public interface SHConstants
+{
+    int FADE_INTANGIBILITY = 10;
+    int FADE_INVISIBILITY = 10;
+    int FADE_SHAPE_SHIFT = 50;
+    int FADE_VELOCITY9 = 10;
+    int FADE_SHADOWFORM = 5;
+
+    int ANIMATION_WINGS = 6;
+    int ANIMATION_HAT_TIP = 50;
+
+    int TICKS_CRYO_CHARGE = 20;
+    int TICKS_SHOOTING = 4;
+    int TICKS_AIMING = 4;
+    int TICKS_AIMED = 10;
+    int TICKS_SCOPE = 6;
+    int TICKS_FOCUS_HOLD = 80;
+    int TICKS_FOCUS_START = 4;
+    int TICKS_TACHYON_LOAD = 10;
+    int TICKS_HORIZONTAL_BOW = 5;
+    int TICKS_LIGHTNING_CAST = 15;
+    int TICKS_STEEL_CONVERT = 4;
+    int TICKS_SHIELD_UNFOLD = 10;
+    int TICKS_SHIELD_BLOCKING = 5;
+    int TICKS_BLADE_UNFOLD = 8;
+    int TICKS_TRANSFORMATION = 10;
+    int TICKS_EARTHCRACK = 160;
+    int TICKS_REPULSOR = 6;
+    int TICKS_WHIP_PULL = 4;
+    int TICKS_WHIP_STRETCH = 2;
+    short TICKS_HEALING_FACTOR = 80;
+    byte TICKS_TELEPORT_DELAY = 6;
+
+    float DMG_COMPOUND_BOW = 4;
+    float DMG_CPT_AMERICA_SHIELD = 5;
+    float DMG_DEADPOOL_SWORDS = 6.5F;
+    float DMG_BLACK_CANARY_TONFAS = 5;
+    float DMG_PROMETHEUS_SWORD = 6.5F;
+    float DMG_BO_STAFF = 5;
+
+    int MAX_DMG_COMPOUND_BOW = 1500;
+    int MAX_DMG_CPT_AMERICA_SHIELD = 1561;
+    int MAX_DMG_DEADPOOL_SWORDS = 1200;
+    int MAX_DMG_BLACK_CANARY_TONFAS = 1000;
+    int MAX_DMG_PROMETHEUS_SWORD = 800;
+    int MAX_DMG_GRAPPLING_GUN = 256;
+    int MAX_DMG_BO_STAFF = 800;
+
+    int IGNITE_FLAME_BLAST = 2;
+    int IGNITE_FLAME_FISTS = 2;
+    int IGNITE_FIREBALL = 5;
+    int IGNITE_HEAT_GUN = 5;
+    int IGNITE_FIRE_ARROW = 5;
+
+    int MAX_CHARGE_DEVICE = 1000;
+    int MAX_CHARGE_ARMOR = 200;
+    int MAX_TACHYON_RECHARGE = 20;
+    int MAX_SUBATOMIC_CHARGE = 1024;
+    int MAX_SUBATOMIC_RECHARGE = 128;
+
+    float ICE_FIST_USES = 5;
+
+    float RANGE_DUPLICATION = 32;
+}

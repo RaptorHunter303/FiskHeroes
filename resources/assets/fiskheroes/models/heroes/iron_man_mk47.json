@@ -1,0 +1,14 @@
+{
+  "parent": "fiskheroes:iron_man",
+  "resources": {
+    "layer1": "fiskheroes:iron_man_mk47_layer1",
+    "layer2": "fiskheroes:iron_man_mk47_layer2",
+    "suit": "fiskheroes:iron_man_mk47_suit.tx.json"
+  },
+  "itemIcons": {
+    "HELMET": "iron_man_0",
+    "CHESTPLATE": "%s_1",
+    "LEGGINGS": "%s_2",
+    "BOOTS": "iron_man_3"
+  }
+}

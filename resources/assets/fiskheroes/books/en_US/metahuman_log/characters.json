@@ -1,0 +1,65 @@
+{
+  "name": "Characters",
+  "pages": [
+    {
+      "id": "generated/summary"
+    },
+    {
+      "id": "Suit Tiers",
+      "header": "Suit Tiers",
+      "text": "Suit tier determines a suit's damage reduction capabilities. While tier does not directly impact a suit's special abilities, suits that are of a higher tier are traditonally more powerful as well as expensive.\n\n&lTier 1:\n&980% Damage Reduction",
+      "extra": [
+        {
+          "type": "item",
+          "value": "fiskheroes:exclusivity_token@1",
+          "align": "right",
+          "pos": [8, 81],
+          "scale": 1
+        }
+      ]
+    },
+    {
+      "text": "&lTier 2:\n&987.5% Damage Reduction\n\n&lTier 3:\n&992.2% Damage Reduction\n\n&lTier 4:\n&995.1% Damage Reduction\n\n&lTier 5:\n&996.9% Damage Reduction\n\n&lTier 6:\n&998.1% Damage Reduction",
+      "extra": [
+        {
+          "type": "item",
+          "value": "fiskheroes:exclusivity_token@2",
+          "align": "right",
+          "pos": [8 , 0],
+          "scale": 1
+        },
+        {
+          "type": "item",
+          "value": "fiskheroes:exclusivity_token@3",
+          "align": "right",
+          "pos": [8, 27],
+          "scale": 1
+        },
+        {
+          "type": "item",
+          "value": "fiskheroes:exclusivity_token@4",
+          "align": "right",
+          "pos": [8, 54],
+          "scale": 1
+        },
+        {
+          "type": "item",
+          "value": "fiskheroes:exclusivity_token@5",
+          "align": "right",
+          "pos": [8, 81],
+          "scale": 1
+        },
+        {
+          "type": "item",
+          "value": "fiskheroes:exclusivity_token@6",
+          "align": "right",
+          "pos": [8, 108],
+          "scale": 1
+        }
+      ]
+    },
+    {
+      "id": "generated/registry_characters_all"
+    }
+  ]
+}

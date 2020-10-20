@@ -1,0 +1,24 @@
+{
+  "parent": "fiskheroes:doctor_strange",
+  "resources": {
+    "layer1": "fiskheroes:doctor_strange_eye_layer1"
+  },
+  "texture": {
+    "renderLayer": {
+      "LEGGINGS": {
+        "wornChestplate": {
+          "fiskheroes:doctor_strange/eye": "pants_robes"
+        },
+        "default": "pants"
+      },
+      "BOOTS": "boots"
+    },
+    "default": "layer1"
+  },
+  "itemIcons": {
+    "HELMET": "doctor_strange_0",
+    "CHESTPLATE": "%s_1",
+    "LEGGINGS": "doctor_strange_2",
+    "BOOTS": "doctor_strange_3"
+  }
+}

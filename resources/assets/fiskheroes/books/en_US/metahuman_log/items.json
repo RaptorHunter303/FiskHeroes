@@ -1,0 +1,1444 @@
+{
+  "name": "Items",
+  "pages": [
+    {
+      "id": "generated/summary"
+    },
+    {
+      "id": "generated/itemlist[fromMod_fiskheroes && !isHeroArmor && hasTab]"
+    },
+    {
+      "id": "tile.eternium_block",
+      "header": "tile.eternium_block.name",
+      "text": "A solid block of the interdimensional element <link=item.eternium_shard>Eternium</link>, fragments of the magical Rock of Eternity disseminated across the Multiverse long ago. Very little is understood about Eternium in modern science, but ancient texts describe its abilities to grant Cosmic powers to those who understand its potential...",
+      "extra": [
+        {
+          "type": "item",
+          "value": "fiskheroes:eternium_block",
+          "align": "right",
+          "pos": [0, -1],
+          "scale": 1.5
+        }
+      ]
+    },
+    {
+      "extra": [
+        {
+          "type": "text",
+          "value": "Eternium is lethal to <link=hero.fiskheroes.shazam_dceu>Shazam</link>, and will afflict him with <link=weakness.eternium_weakness>Eternium Weakness</link> as long as he is in contact with or near the element. Attempting to mine this block with any tool less powerful than a <link=item.tutridium_pickaxe>Tutridium Pickaxe</link> will result in an explosive surprise. A single Eternium Block is worth 9,216 material points."
+        }
+      ]
+    },
+    {
+      "extra": [
+        {
+          "type": "recipe",
+          "value": "fiskheroes:eternium_block",
+          "align": "center",
+          "pos": [0, 0]
+        },
+        {
+          "type": "text",
+          "value": "\n\n\n\n\n\n\n\n&lDrops: &rItself\n&lHarvest Lvl: &rTutridium\n&lFortune: &rNo\n&lSilk Touch: &rN/A\n&lMaterial Pt. Value: &r9,216"
+        }
+      ]
+    },
+    {
+      "id": "tile.tutridium_block",
+      "header": "tile.tutridium_block.name",
+      "text": "A solid block of the extraordinary element <link=item.tutridium_gem>Tutridium</link>. If harnessed using a <link=tile.suit_fabricator>Suit Fabricator</link>, Tutridium can be used to fabricate suits that alter their wearer's DNA and neurology. A single Tutridium Block is worth 4,608 material points.",
+      "extra": [
+        {
+          "type": "item",
+          "value": "fiskheroes:tutridium_block",
+          "align": "right",
+          "pos": [0, -1],
+          "scale": 1.5
+        }
+      ]
+    },
+    {
+      "extra": [
+        {
+          "type": "recipe",
+          "value": "fiskheroes:tutridium_block",
+          "align": "center",
+          "pos": [0, 0]
+        },
+        {
+          "type": "text",
+          "value": "\n\n\n\n\n\n\n\n&lDrops: &rItself\n&lHarvest Lvl: &rIron\n&lFortune: &rNo\n&lSilk Touch: &rN/A\n&lMaterial Pt. Value: &r4,608"
+        }
+      ]
+    },
+    {
+      "id": "tile.vibranium_block",
+      "header": "tile.vibranium_block.name",
+      "text": "A solid block of the metal <link=item.vibranium_plate>Vibranium</link>, an extraterrestrial mineral distinguished by its near-invulnerability and peculiar molecular structure capable of negating kinetic energy entirely.",
+      "extra": [
+        {
+          "type": "item",
+          "value": "fiskheroes:vibranium_block",
+          "align": "right",
+          "pos": [0, -1],
+          "scale": 1.5
+        }
+      ]
+    },
+    {
+      "extra": [
+        {
+          "type": "text",
+          "value": "If harnessed via a <link=tile.suit_fabricator>Suit Fabricator</link>, Vibranium can aid the element <link=item.tutridium_gem>Tutridium</link> in fabricating suits that alter their wearer's DNA and neurology - albeit less effectively. A single Vibranium Block is worth 288 material points."
+        }
+      ]
+    },
+    {
+      "extra": [
+        {
+          "type": "recipe",
+          "value": "fiskheroes:vibranium_block",
+          "align": "center",
+          "pos": [0, 0]
+        },
+        {
+          "type": "text",
+          "value": "\n\n\n\n\n\n\n\n&lDrops: &rItself\n&lHarvest Lvl: &rStone\n&lFortune: &rNo\n&lSilk Touch: &rN/A\n&lMaterial Pt. Value: &r288"
+        }
+      ]
+    },
+    {
+      "id": "item.bo_staff",
+       "header": "item.bo_staff.name",
+      "text": "A modernized weapon of the ancient Okinawan martial arts, the Bo Staff is a lightweight blunt weapon comprised of steel and wood. The Bo Staff's balance and length make is usable even by the untrained.",
+      "extra": [
+        {
+          "type": "item",
+          "value": "fiskheroes:bo_staff",
+          "align": "right",
+          "pos": [0, -1],
+          "scale": 1.5
+        }
+      ]
+    },
+    {
+      "extra": [
+        {
+          "type": "recipe",
+          "value": "fiskheroes:bo_staff",
+          "align": "center",
+          "pos": [0, 0]
+        },
+        {
+          "type": "text",
+          "value": "\n\n\n\n\n\n\n\n&lDamage: &r5\n&lDurability: &r801\n&lRight-Click: &rN/A &lEnchantments: &rNone"
+        }
+      ]
+    },
+    {
+      "id": "item.captain_americas_shield",
+       "header": "item.captain_americas_shield.name",
+      "text": "A Targe shield comprised of <link=item.vibranium_plate>Vibranium</link> and decorated with a patriotic motif, originally designed by the Strategic Science Reserve. In the hands of a trained user, Captain America's Shield is an effective weapon with both offensive and defensive capabilities.",
+      "extra": [
+        {
+          "type": "item",
+          "value": "fiskheroes:captain_americas_shield",
+          "align": "right",
+          "pos": [0, -1],
+          "scale": 1.5
+        }
+      ]
+    },
+    {
+      "extra": [
+        {
+          "type": "text",
+          "value": "The shield employs Vibranium's incredible robustness and unique molecular structure to deflect projectiles and protect the user completely from physical damage. The shield can also be thrown by holding '<key.sneak>' and pressing '<key.attack>', where it will ricochet freely off of blocks until it connects with an entity, at which point the shield will bounce back into the user's grip."
+        }
+      ]
+    },
+    {
+      "extra": [
+        {
+          "type": "text",
+          "value": "In the event that the shield runs of momentum, however, it can be picked up by opponents. Captain America's Shield is only usable by <link=hero.fiskheroes.captain_america>Captain America</link>."
+        }
+      ]
+    },
+    {
+      "extra": [
+        {
+          "type": "recipe",
+          "value": "fiskheroes:captain_americas_shield",
+          "align": "center",
+          "pos": [0, 0]
+        },
+        {
+          "type": "text",
+          "value": "\n\n\n\n\n\n\n\n&lDamage: &r5\n&lDurability: &r1562\n&lRight-Click: &rBlock\n&lEnchantments: &dElectromagnetic I &r- Thrown shield always returns"
+        }
+      ]
+    },
+    {
+      "id": "item.chronos_rifle",
+       "header": "item.chronos_rifle.name",
+      "text": "A powerful assault sniper from the future that somewhat resembles the historical Sterling sub-machine gun, but fires bolts of plasma rather than bullets. Chronos' Rifle is powered by the energies of the subatomic world stored within a <link=item.subatomic_battery>Subatomic Battery</link>. The weapon is fired by holding '<key.aim>' pressing '<key.use>'.",
+      "extra": [
+        {
+          "type": "item",
+          "value": "fiskheroes:chronos_rifle",
+          "align": "right",
+          "pos": [0, -1],
+          "scale": 1.5
+        }
+      ]
+    },
+    {
+      "extra": [
+        {
+          "type": "text",
+          "value": "By holding '<key.sneak>', the user can use the rifle's scope to decimate targets from afar. Chronos' Rifle is only usable by <link=hero.fiskheroes.chronos>Chronos</link>."
+        }
+      ]
+    },
+    {
+      "extra": [
+        {
+          "type": "recipe",
+          "value": "fiskheroes:chronos_rifle",
+          "align": "center",
+          "pos": [0, 0]
+        },
+        {
+          "type": "text",
+          "value": "\n\n\n\n\n\n\n\n\n&lDamage: &r9\n&lFiring Rate: &r60rpm\n&lRange: &r200 blocks\n&lUsable By: &rChronos"
+        }
+      ]
+    },
+    {
+      "id": "item.cold_gun",
+      "header": "item.cold_gun.name",
+      "text": "A cutting-edge handheld weapon originally designed by Cisco Ramon of S.T.A.R. Labs. The Cold Gun relies on a compact cryo-engine that emits an energy beam of absolute zero - the lowest possible thermodynamic temperature where all molecular vibration ceases.",
+      "extra": [
+        {
+          "type": "item",
+          "value": "fiskheroes:cold_gun",
+          "align": "right",
+          "pos": [0, -1],
+          "scale": 1.5
+        }
+      ]
+    },
+    {
+      "extra": [
+        {
+          "type": "text",
+          "value": "The Cold Gun is a particularly effective weapon against <link=ability.fiskheroes.super_speed>Speedsters</link>, whose ability to accelerate is greatly hindered by a lack of molecular vibration. A layer of <link=tile.ice_layer>ice residue</link> is left by the Cold Gun that melts over time or if exposed to a heat source."
+        }
+      ]
+    },
+    {
+      "extra": [
+        {
+          "type": "recipe",
+          "value": "fiskheroes:cold_gun",
+          "align": "center",
+          "pos": [0, 0]
+        },
+        {
+          "type": "text",
+          "value": "\n\n\n\n\n\n\n\n&lDamage: &r7\n&lFiring Rate: &rSustained beam\n&lRange: &r32 blocks\n&lUsable By: &r<link=hero.fiskheroes.captain_cold>Captain Cold</link>"
+        }
+      ]
+    },
+    {
+      "id": "tile.cosmic_suit_fabricator",
+      "header": "tile.cosmic_suit_fabricator.name",
+      "text": "Similar to the <link=tile.suit_fabricator>Suit Fabricator</link>, the Cosmic Suit Fabricator is capable of harnessing <link=item.tutridium_gem>Tutridium's</link> ever-shifting atomic structure to fabricate suits that alter their wearer's DNA and neurology, granting them powers and abilities that would normally take years of training, alien genetics, or extraordinary circumstances.",
+      "extra": [
+        {
+          "type": "item",
+          "value": "fiskheroes:cosmic_suit_fabricator",
+          "align": "right",
+          "pos": [0, -1],
+          "scale": 1.5
+        }
+      ]
+    },
+    {
+      "extra": [
+        {
+          "type": "text",
+          "value": "However, the Cosmic Suit Fabricator couples this ability with the Cosmic power of <link=item.eternium_shard>Eternium</link>. By manipulating these interdimensional energies, the user may create suits more powerful than once considered possible. The Cosmic Suit Fabricator requires substantially more energy than its little brother to function; all inputted items are worth &l1/32nd &rof their standard material value."
+        }
+      ]
+    },
+    {
+      "extra": [
+        {
+          "type": "recipe",
+          "value": "fiskheroes:cosmic_suit_fabricator",
+          "align": "center",
+          "pos": [0, 0]
+        },
+        {
+          "type": "text",
+          "value": "\n\n\n\n\n\n\n\n&lDrops: &rItself\n&lHarvest Level: &rWood\n&lFortune: &rNo\n&lSilk Touch: &rN/A"
+        }
+      ]
+    },
+    {
+      "id": "tile.treadmill",
+      "header": "tile.treadmill.name",
+      "text": "A remarkable treadmill designed by Cisco Ramon of S.T.A.R. Labs capable of operating at speeds upwards of Mach 2. Using this treadmill, <link=ability.fiskheroes.super_speed>Speedforce</link> users can vigorously train to increase their top speed by a maximum of 30 speed levels.",
+      "extra": [
+        {
+          "type": "item",
+          "value": "fiskheroes:treadmill",
+          "align": "right",
+          "pos": [0, -1],
+          "scale": 1.5
+        }
+      ]
+    },
+    {
+      "extra": [
+        {
+          "type": "recipe",
+          "value": "fiskheroes:treadmill",
+          "align": "center",
+          "pos": [0, 0]
+        },
+        {
+          "type": "text",
+          "value": "\n\n\n\n\n\n\n\n&lDrops: &rItself\n&lHarvest Lvl: &rN/A\n&lFortune: &rNo\n&lSilk Touch: &rN/A\n&lSpeed Boost: &rMaximum of 30 levels"
+        }
+      ]
+    },
+    {
+      "id": "item.deadpools_swords",
+      "header": "item.deadpools_swords.name",
+      "text": "A pair of Japanese Nihonto, modernized to be wielded with one hand each. Comprised of tempered steel, Deadpool's Katanas are an effective weapon, capable of attacking with twice the speed of a more traditional armament.",
+      "extra": [
+        {
+          "type": "item",
+          "value": "fiskheroes:deadpools_swords",
+          "align": "right",
+          "pos": [0, -1],
+          "scale": 1.5
+        }
+      ]
+    },
+    {
+      "extra": [
+        {
+          "type": "recipe",
+          "value": "fiskheroes:deadpools_swords",
+          "align": "center",
+          "pos": [0, 0]
+        },
+        {
+          "type": "text",
+          "value": "\n\n\n\n\n\n\n\n&lDamage: &r6.5\n&lDurability: &r1021\n&lRight-Click: &rDual hit\n&lEnchantments: &rNone"
+        }
+      ]
+    },
+    {
+      "id": "item.display_case",
+      "header": "item.display_case.name",
+      "text": "A glass structure - by default - meant to enclose and decorate a <link=tile.display_stand>Display Stand</link>. Its structural appearance is configurable via using materials on a crafting table.",
+      "extra": [
+        {
+          "type": "item",
+          "value": "fiskheroes:display_case",
+          "align": "right",
+          "pos": [0, -1],
+          "scale": 1.5
+        },
+        {
+          "type": "recipe",
+          "value": "fiskheroes:display_case",
+          "align": "center",
+          "pos": [0, 65]
+        }
+      ]
+    },
+    {
+      "id": "tile.display_stand",
+      "header": "tile.display_stand.name",
+      "text": "A cotton fiber mannequin ideal for storing and displaying suits. These stands are designed to hold a general item and an item specific to whatever suit the stand is storing.\n\nThis includes <link=item.quiver>Quivers</link>, <link=item.captain_americas_shield>Shields</link>, <link=item.deadpools_swords>Swords</link>, as well as <link=item.tachyon_prototype>Tachyon Prototypes</link> - which will",
+      "extra": [
+        {
+          "type": "item",
+          "value": "fiskheroes:display_stand@-1",
+          "align": "right",
+          "pos": [0, -1],
+          "scale": 1.5
+        }
+      ]
+    },
+    {
+      "extra": [
+        {
+          "type": "text",
+          "value": "charge the stand's suit with <link=ability.fiskheroes.super_speed>Speed Force</link> energy if the suit is suitable for Tachyon enhancement. A display stand's colour can be modified either by crafting it with coloured wool or right-clicking one with any dye-item."
+        }
+      ]
+    },
+    {
+      "extra": [
+        {
+          "type": "recipe",
+          "value": "fiskheroes:display_stand@-1",
+          "align": "center",
+          "pos": [0, 0]
+        },
+        {
+          "type": "text",
+          "value": "\n\n\n\n\n\n\n\n&lDrops: &rItself\n&lHarvest Lvl: &rN/A\n&lFortune: &rNo\n&lSilk Touch: &rN/A"
+        }
+      ]
+    },
+    {
+      "id": "tile.eternium_ore",
+      "header": "tile.eternium_ore.name",
+      "text": "An extremely rare ore infused with the interdimensional element <link=item.eternium_shard>Eternium</link>, a fragment of the magical Rock of Eternity disseminated across the Multiverse long ago. Very little is understood about Eternium in modern science, but ancient texts describe its abilities to grant Cosmic powers to those who understand its potential...",
+      "extra": [
+        {
+          "type": "item",
+          "value": "fiskheroes:eternium_ore",
+          "align": "right",
+          "pos": [0, -1],
+          "scale": 1.5
+        }
+      ]
+    },
+    {
+      "extra": [
+        {
+          "type": "text",
+          "value": "Eternium is lethal to <link=hero.fiskheroes.shazam_dceu>Shazam</link>, and will afflict him with <link=weakness.fiskheroes.eternium>Eternium Weakness</link> as long as he is in contact with or near the element. Attempting to mine this block with any tool less powerful than a <link=item.tutridium_pickaxe>Tutridium Pickaxe</link> will result in an explosive surprise. Eternium Ore occurs in 4-block veins throughout the Overworld below height level 5. It can spawn in a maximum of three veins per chunk."
+        }
+      ]
+    },
+    {
+      "extra": [
+        {
+          "type": "text",
+          "value": "&lDrops: &rItself\n&lHarvest Lvl: &rTutridium\n&lFortune: &rNo\n&lSilk Touch: &rN/A\n&lSpawns In: &rThe Overworld"
+        }
+      ]
+    },
+    {
+      "id": "item.eternium_shard",
+      "header": "item.eternium_shard.name",
+      "text": "A pure shard of the interdimensional element Eternium, a fragment of the magical Rock of Eternity disseminated across the Multiverse long ago. Very little is understood about Eternium in modern science, but ancient texts describe its abilities to grant Cosmic powers to those who understand its potential...",
+      "extra": [
+        {
+          "type": "item",
+          "value": "fiskheroes:eternium_shard",
+          "align": "right",
+          "pos": [0, -1],
+          "scale": 1.5
+        }
+      ]
+    },
+    {
+      "extra": [
+        {
+          "type": "text",
+          "value": "Eternium is lethal to <link=hero.fiskheroes.shazam_dceu>Shazam</link>, and will afflict him with <link=weakness.fiskheroes.eternium>Eternium Weakness</link> as long as he is in contact with or near the element. A single Eternium Shard is worth 1,024 material points.\n\n&lMaterial Pt. Value: &r1,024"
+        }
+      ]
+    },
+    {
+      "id": "tile.eternium_stone",
+      "header": "tile.eternium_stone.name",
+      "text": "Metamorphic stone studded with tiny fragments of the interdimensional element <link=item.eternium_shard>Eternium</link>, a fragment of the magical Rock of Eternity disseminated across the Multiverse long ago. Eternium-Infused Stone does not contain a sufficient amount of Eternium to be harvested, but it often indicates the presence of <link=tile.eternium_ore>Eternium Ore</link>.",
+      "extra": [
+        {
+          "type": "item",
+          "value": "fiskheroes:eternium_stone",
+          "align": "right",
+          "pos": [0, -1],
+          "scale": 1.5
+        }
+      ]
+    },
+    {
+      "extra": [
+        {
+          "type": "text",
+          "value": "Eternium is lethal to <link=hero.fiskheroes.shazam_dceu>Shazam</link>, and will afflict him with <link=weakness.fiskheroes.eternium>Eternium Weakness</link> as long as he is in contact with or near the element. Attempting to mine this block with any tool less powerful than a <link=item.tutridium_pickaxe>Tutridium Pickaxe</link> will result in an explosive surprise."
+        }
+      ]
+    },
+    {
+      "extra": [
+        {
+          "type": "text",
+          "value": "&lDrops: &rItself\n&lHarvest Lvl: &rTutridium\n&lFortune: &rNo\n&lSilk Touch: &rN/A\n&lSpawns In: &rOverworld, adjacent to Eternity Nexuses"
+        }
+      ]
+    },
+    {
+      "id": "item.flash_ring",
+      "header": "item.flash_ring.name",
+      "text": "A device from the future that uses microtechnology to compress <link=ability.fiskheroes.super_speed>Speedster</link> suits for ease of storage and inconspicuous transportation. Pressing '<key.use>' while holding a Flash Ring will either store or equip one's suit instantly, as well as its enabled abilities.",
+      "extra": [
+        {
+          "type": "item",
+          "value": "fiskheroes:flash_ring",
+          "align": "right",
+          "pos": [0,-1],
+          "scale": 1.5
+        }
+      ]
+    },
+    {
+      "extra": [
+        {
+          "type": "recipe",
+          "value": "fiskheroes:flash_ring",
+          "align": "center",
+          "pos": [0,14]
+        },
+        {
+          "type": "text",
+          "value": "\n\n\n\n\n\n\n\n\n&lUsable with: &r<link=ability.fiskheroes.super_speed>Speedster</link> suits"
+        }
+      ]
+    },
+    {
+      "id": "tile.frosted_ice",
+      "header": "tile.frosted_ice.name",
+      "text": "Solid ice that forms from water as a byproduct of a <link=item.cold_gun>cryo-weapon</link>.\n\n&lDrops: &rWater source\n&lHarvest Lvl: &rN/A\n&lFortune: &rNo\n&lSilk Touch: &rN/A\n&lDuration: &r9-50s",
+      "extra": [
+        {
+          "type": "item",
+          "value": "fiskheroes:frosted_ice",
+          "align": "right",
+          "pos": [0, -1],
+          "scale": 1.5
+        }
+      ]
+    },
+    {
+      "id": "item.grappling_gun",
+      "header": "item.grappling_gun.name",
+      "text": "A versatile handheld line-launcher device designed by the Research & Development department of Wayne Enterprises. The Grappling Gun fires a mechanized harpoon connected to a high tensile strength polymer cable which ignores mobs, instead latching firmly to most blocks.",
+      "extra": [
+        {
+          "type": "item",
+          "value": "fiskheroes:grappling_gun",
+          "align": "right",
+          "pos": [0,-1],
+          "scale": 1.5
+        }
+      ]
+    },
+    {
+      "extra": [
+        {
+          "type": "text",
+          "value": "The Grappling Gun then uses compressed carbon dioxide to pull the user towards their target with speed, allowing them to scale vertical surfaces, cross chasms, and move across a horizontal plane at great velocities."
+        }
+      ]
+    },
+    {
+      "extra": [
+        {
+          "type": "recipe",
+          "value": "fiskheroes:grappling_gun",
+          "align": "center",
+          "pos": [0, 0]
+        },
+        {
+          "type": "text",
+          "value": "\n\n\n\n\n\n\\n\n&lDamage: &rN/A\n&lDurability: &r257\n&lRange: &r60 blocks\n&lUsable By: &r<link=hero.fiskheroes.batman_dceu>Batman</link>"
+        }
+      ]
+    },
+    {
+      "id": "item.gun_base",
+      "header": "item.gun_base.name",
+      "text": "Easily configurable firearm hardware used to construct many devices.",
+      "extra": [
+        {
+          "type": "item",
+          "value": "fiskheroes:gun_base",
+          "align": "right",
+          "pos": [0, -1],
+          "scale": 1.5
+        },
+        {
+          "type": "recipe",
+          "value": "fiskheroes:gun_base",
+          "align": "center",
+          "pos": [0, 50]
+        }
+      ]
+    },
+   {
+      "id": "item.handle",
+      "header": "item.handle.name",
+      "text": "A simple, sturdy wooden handle.",
+      "extra": [
+        {
+          "type": "item",
+          "value": "fiskheroes:handle",
+          "align": "right",
+          "pos": [1, -1],
+          "scale": 1.5
+        },
+        {
+          "type": "recipe",
+          "value": "fiskheroes:handle",
+          "align": "center",
+          "pos": [0, 50]
+        }
+      ]
+    },
+    {
+      "id": "item.heat_gun",
+      "header": "item.heat_gun.name",
+      "text": "A robust handheld weapon originally designed by Cisco Ramon of S.T.A.R. Labs. The Heat Gun fires highly-concentrated, combustible liquid fuel that ignites on contact with the air.",
+      "extra": [
+        {
+          "type": "item",
+          "value": "fiskheroes:heat_gun",
+          "align": "right",
+          "pos": [0, -1],
+          "scale": 1.5
+        }
+      ]
+    },
+    {
+      "extra": [
+        {
+          "type": "text",
+          "value": "The apparent effect of this is a rise of temperature in the surrounding air that nears absolute hot - the absolute maximum thermodynamic temperature possible where current theories on the behaviour of matter no longer apply. The Heat Gun is an effective flamethrower that ignites wood blocks and melts ice."
+        }
+      ]
+    },
+    {
+      "extra": [
+        {
+          "type": "recipe",
+          "value": "fiskheroes:heat_gun",
+          "align": "center",
+          "pos": [0, 0]
+        },
+        {
+          "type": "text",
+          "value": "\n\n\n\n\n\n\n\n&lDamage: &r5 + Fire damage\n&lFiring Rate: &rSustained beam\n&lRange: &r32 blocks\n&lUsable By: &r<link=hero.fiskheroes.heatwave>Heatwave</link>"
+        }
+      ]
+    },
+    {
+      "id": "tile.ice_layer",
+      "header": "tile.ice_layer.name",
+      "text": "A layer of ice residue created as a byproduct of a <link=item.cold_gun>cryo-weapon</link>. A full block's worth of this ice will melt in approximately 10 seconds, but will melt sooner if exposed to a sufficient heat source.\n\n&lDrops: &rN/A\n&lSilk Touch: &rNo\n&lDuration: &r10s",
+      "extra": [
+        {
+          "type": "item",
+          "value": "fiskheroes:ice_layer",
+          "align": "right",
+          "pos": [0, -1],
+          "scale": 1.5
+        }
+      ]
+    },
+   {
+      "id": "item.katana_blade",
+      "header": "item.katana_blade.name",
+      "text": "A finely-balanced Eastern sword blade composed of tempered steel.",
+      "extra": [
+        {
+          "type": "item",
+          "value": "fiskheroes:katana_blade",
+          "align": "right",
+          "pos": [0, -1],
+          "scale": 1.5
+        },
+        {
+          "type": "recipe",
+          "value": "fiskheroes:katana_blade",
+          "align": "center",
+          "pos": [0, 50]
+        }
+      ]
+    },
+  {
+      "id": "item.mini_atom_suit",
+      "header": "item.mini_atom_suit.name",
+      "text": "A completely functional <link=hero.fiskheroes.atom>A.T.O.M. Exosuit</link> shrunken down to a few centimeters via nanites that shrink the space between and within atoms. Pressing '<key.use>' with the miniaturized suit in hand will enlarge and equip it instantly.",
+      "extra": [
+        {
+          "type": "item",
+          "value": "fiskheroes:mini_atom_suit",
+          "align": "right",
+          "pos": [0, -1],
+          "scale": 1.5
+        }
+      ]
+    },
+    {
+      "id": "tile.nexus_brick_slab",
+      "header": "tile.nexus_brick_slab.name",
+      "text": "Nexus Bricks are ancient stone bricks seeded with <link=item.eternium_shard>Eternium</link> and imbued with magic. They comprise Eternity Nexuses, mysterious and ancient underground structures that are said to contain magic of Cosmic proportions. Attempting to mine this block with any tool less powerful than a <link=item.tutridium_pickaxe>Tutridium Pickaxe</link> will result in an explosive surprise.",
+      "extra": [
+        {
+          "type": "item",
+          "value": "fiskheroes:nexus_brick_slab",
+          "align": "right",
+          "pos": [0, -1],
+          "scale": 1.5
+        }
+      ]
+    },
+    {
+      "extra": [
+        {
+          "type": "recipe",
+          "value": "fiskheroes:nexus_brick_slab",
+          "align": "center",
+          "pos": [0, 0]
+        },
+        {
+          "type": "text",
+          "value": "\n\n\n\n\n\n\n\n&lDrops: &rItself\n&lHarvest Lvl: &rTutridium\n&lFortune: &rNo\n&lSilk Touch: &rN/A\n&lSpawns In: &rOverworld, comprising Eternity Nexuses"
+        }
+      ]
+    },
+    {
+      "id": "tile.nexus_brick_stairs",
+      "header": "tile.nexus_brick_stairs.name",
+      "text": "Nexus Bricks are ancient stone bricks seeded with <link=item.eternium_shard>Eternium</link> and imbued with magic. They comprise Eternity Nexuses, mysterious and ancient underground structures that are said to contain magic of Cosmic proportions. Attempting to mine this block with any tool less powerful than a <link=item.tutridium_pickaxe>Tutridium Pickaxe,</link> will result in an explosive surprise.",
+      "extra": [
+        {
+          "type": "item",
+          "value": "fiskheroes:nexus_brick_stairs",
+          "align": "right",
+          "pos": [0, -1],
+          "scale": 1.5
+        }
+      ]
+    },
+    {
+      "extra": [
+        {
+          "type": "recipe",
+          "value": "fiskheroes:nexus_brick_stairs",
+          "align": "center",
+          "pos": [0, 0]
+        },
+        {
+          "type": "text",
+          "value": "\n\n\n\n\n\n\n\n&lDrops: &rItself\n&lHarvest Lvl: &rTutridium\n&lFortune: &rNo\n&lSilk Touch: &rN/A\n&lSpawns In: &rOverworld, comprising Eternity Nexuses"
+        }
+      ]
+    },
+    {
+      "id": "tile.nexus_bricks",
+      "header": "tile.nexus_bricks.name",
+      "text": "Nexus Bricks are ancient stone bricks seeded with <link=item.eternium_shard>Eternium</link> and imbued with magic. They comprise Eternity Nexuses, mysterious and ancient underground structures that are said to contain magic of Cosmic proportions. Attempting to mine this block with any tool less powerful than a <link=item.tutridium_pickaxe>Tutridium Pickaxe</link> will result in an explosive surprise.",
+      "extra": [
+        {
+          "type": "item",
+          "value": "fiskheroes:nexus_bricks",
+          "align": "right",
+          "pos": [0, -1],
+          "scale": 1.5
+        }
+      ]
+    },
+    {
+      "extra": [
+        {
+          "type": "recipe",
+          "value": "fiskheroes:nexus_bricks",
+          "align": "center",
+          "pos": [0, 0]
+        },
+        {
+          "type": "text",
+          "value": "\n\n\n\n\n\n\n\n&lDrops: &rItself\n&lHarvest Lvl: &rTutridium\n&lFortune: &rNo\n&lSilk Touch: &rN/A\n&lSpawns In: &rOverworld, comprising Eternity Nexuses"
+        }
+      ]
+    },
+    {
+      "id": "tile.nexus_soil",
+      "header": "tile.nexus_soil.name",
+      "text": "Nexus Soil is an arcane substance that can be found in Eternity Nexuses, mysterious and ancient underground structures that are said to contain magic of Cosmic proportions. Nexus Soil has absorbed interdimensional energies for millennia, and is consequently quite unstable; upon contact with an entity,",
+      "extra": [
+        {
+          "type": "item",
+          "value": "fiskheroes:nexus_soil",
+          "align": "right",
+          "pos": [0, -1],
+          "scale": 1.5
+        }
+      ]
+    },
+    {
+      "extra": [
+        {
+          "type": "text",
+          "value": "Nexus Soil will catch fire and viciously gyrate its victim to and fro until they are destroyed. Couple this with the difficulty of escaping Nexus Soil, and one is left with an extremely dangerous hazard indeed.\n\n&lDrops: &rNothing\n&lHarvest Lvl: &rN/A\n&lFortune: &rN/A\n&lSilk Touch: &rYes\n&lSpawns In: &rOverworld, within Eternity Nexuses"
+        }
+      ]
+    },
+    {
+      "id": "item.prometheus_sword",
+       "header": "item.prometheus_sword.name",
+      "text": "A modernized Chokuto, a straight, single-edged Japanese sword. Comprised of steel, Prometheus' Sword is an effective weapon even in the hands of an untrained user.",
+      "extra": [
+        {
+          "type": "item",
+          "value": "fiskheroes:prometheus_sword",
+          "align": "right",
+          "pos": [0, -1],
+          "scale": 1.5
+        }
+      ]
+    },
+    {
+      "extra": [
+        {
+          "type": "recipe",
+          "value": "fiskheroes:prometheus_sword",
+          "align": "center",
+          "pos": [0, 0]
+        },
+        {
+          "type": "text",
+          "value": "\n\n\n\n\n\n\n\n&lDamage: &r6.5\n&lDurability: &r801\n&lRight-Click: &rBlock &lEnchantments: &rNone"
+        }
+      ]
+    },
+    {
+      "id": "item.rifle_base",
+      "header": "item.rifle_base.name",
+      "text": "A component of Chronos' powerful <link=item.chronos_rifle>bounty hunter rifle</link>, powered by the energies of the subatomic world stored within a <link=item.subatomic_battery>Subatomic Battery</link>.",
+      "extra": [
+        {
+          "type": "item",
+          "value": "fiskheroes:rifle_base",
+          "align": "right",
+          "pos": [0, -1],
+          "scale": 1.5
+        },
+        {
+          "type": "recipe",
+          "value": "fiskheroes:rifle_base",
+          "align": "center",
+          "pos": [0, 60]
+        }
+      ]
+    },
+    {
+      "id": "item.rip_hunters_gun",
+       "header": "item.rip_hunters_gun.name",
+      "text": "A stylish sidearm from the future that resembles a historical Webley Revolver, but fires bolts of plasma rather than ballistic rounds. This weapon can be fired by holding '<key.aim>' and pressing '<key.use>'. Rip Hunter's Gun is powered by the energies of the subatomic world stored within a <link=item.subatomic_battery>Subatomic Battery</link>.",
+      "extra": [
+        {
+          "type": "item",
+          "value": "fiskheroes:rip_hunters_gun",
+          "align": "right",
+          "pos": [0, -1],
+          "scale": 1.5
+        }
+      ]
+    },
+    {
+      "extra": [
+        {
+          "type": "recipe",
+          "value": "fiskheroes:rip_hunters_gun",
+          "align": "center",
+          "pos": [0, 0]
+        },
+        {
+          "type": "text",
+          "value": "\n\n\n\n\n\n\n\n&lDamage: &r6\n&lFiring Rate: &r160rpm\n&lRange: &r100 blocks\n&lUsable By: &r<link=hero.fiskheroes.rip_hunter>Rip Hunter</link>"
+        }
+      ]
+    },
+    {
+      "id": "item.metahuman_log",
+      "header": "item.metahuman_log.name.short",
+      "text": "An encyclopedia of all of S.T.A.R. Labs' dealings with the extraordinary. The Metahuman Log is complete with info on Metahumans and their abilities, the atomic properties of the incredible element <link=item.tutridium_gem>Tutridium</link>, and blueprints for some of S.T.A.R. Labs' most renowned devices - among other things.",
+      "extra": [
+        {
+          "type": "item",
+          "value": "fiskheroes:metahuman_log",
+          "align": "right",
+          "pos": [0, -1],
+          "scale": 1.5
+        }
+      ]
+    },
+    {
+      "extra": [
+        {
+          "type": "text",
+          "value": "This also happens to be the book you are reading right now!"
+        },
+        {
+          "type": "recipe",
+          "value": "fiskheroes:metahuman_log",
+          "align": "center",
+          "pos": [0, 33]
+        }
+      ]
+    },
+    {
+      "id": "item.subatomic_battery",
+      "header": "item.subatomic_battery.name",
+      "text": "A device of the future, the Subatomic Battery is a <link=item.tachyon_battery>Tachyon Battery</link> modified using <link=tile.subatomic_particle_shell>Subatomic Particles</link> to obtain and store atoms' electrical charge and strong nuclear force - the agents responsible for binding particles together at the subatomic level.\n\nTo be charged, the Subatomic",
+      "extra": [
+        {
+          "type": "item",
+          "value": "fiskheroes:subatomic_battery",
+          "align": "right",
+          "pos": [0, -1]
+        }
+      ]
+    },
+    {
+      "extra": [
+        {
+          "type": "text",
+          "value": "Battery must be placed on an Unstable Particle Core, which acts as an interface between the Battery and atomic forces. However, the act of draining an atom's binding energy will invariably diminish its structural integrity. Eventually, this will cause the atom's remaining energy to be converted into mass and form a black hole in an inexplicable event known as the Fisk Reaction."
+        }
+      ]
+    }, 
+    {
+      "extra": [
+        {
+          "type": "recipe",
+          "value": "fiskheroes:subatomic_battery",
+          "align": "center",
+          "pos": [0, 0]
+        },
+        {
+          "type": "text",
+          "value": "\n\n\n\n\n\n\n\n&lUsable On: &rUnstable Particle Core"
+        }
+      ]
+    },
+    {
+      "id": "tile.subatomic_particle_core",
+      "header": "tile.subatomic_particle_core.name",
+      "text": "A constituent of a particle yet to be discovered by modern-day science, but hypothetically referred to as the graviton. The Subatomic Particle Core is an elementary particle responsible for mediating the force of gravity. Subatomic Cores are notable because of the unique reaction they have with Pym Particles.",
+      "extra": [
+        {
+          "type": "item",
+          "value": "fiskheroes:subatomic_particle_core",
+          "align": "right",
+          "pos": [0, -1],
+          "scale": 1.5
+        }
+      ]
+    },
+    {
+      "extra": [
+        {
+          "type": "text",
+          "value": "Upon contact with a Subatomic Core, Pym Particles and their user are exposed to a surge of graviton energy that instantly reverses the Particles' shrinking effect - instantly transporting the exposed out of the Quantum Realm.\n\n&lHarvest Lvl: &rUnbreakable\n&lSpawns In: &rSubatomic Particles - Quantum Realm"
+        }
+      ]
+    },
+    {
+      "id": "tile.subatomic_particle_shell",
+      "header": "tile.subatomic_particle_shell.name",
+      "text": "The shell of an atom's nucleus, harvested from the Quantum Realm. In the future, subatomic particles such as these are used to create <link=item.subatomic_battery>power sources</link> that employ an advanced, pocket-sized form of fission. Pym Particles allow this substance to be corporeal in the perceivable world.",
+      "extra": [
+        {
+          "type": "item",
+          "value": "fiskheroes:subatomic_particle_shell",
+          "align": "right",
+          "pos": [0, -1],
+          "scale": 1.5
+        }
+      ]
+    },
+    {
+      "extra": [
+        {
+          "type": "text",
+          "value": "&lDrops: &rItself\n&lHarvest Lvl: &rWood\n&lFortune: &rNo\n&lSilk Touch: &rN/A\n&lSpawns In: &rSubatomic Particles, Quantum Realm"
+        }
+      ]
+    },
+    {
+      "id": "tile.suit_fabricator",
+      "header": "tile.suit_fabricator.name",
+      "text": "A cutting-edge device capable of harnessing <link=item.tutridium_gem>Tutridium</link>'s ever-shifting atomic structure to fabricate suits that alter their wearer's DNA and neurology, granting them powers and abilities that would normally require years of training, alien genetics, or extraordinary circumstances.",
+      "extra": [
+        {
+          "type": "item",
+          "value": "fiskheroes:suit_fabricator",
+          "align": "right",
+          "pos": [0, -1],
+          "scale": 1.5
+        }
+      ]
+    },
+    {
+      "extra": [
+        {
+          "type": "text",
+          "value": "With sufficient Tutridium - or <link=item.vibranium_plate>Vibranium</link> to augment its potential - there is no limit to what a Suit Fabricator can manufacture."
+        }
+      ]
+    },
+    {
+      "extra": [
+        {
+          "type": "recipe",
+          "value": "fiskheroes:suit_fabricator",
+          "align": "center",
+          "pos": [0, 0]
+        },
+        {
+          "type": "text",
+          "value": "\n\n\n\n\n\n\n\n&lDrops: &rItself\n&lHarvest Lvl: &rWood\n&lFortune: &rNo\n&lSilk Touch: &rN/A"
+        }
+      ]
+    },
+    {
+      "id": "tile.suit_iterator",
+      "header": "tile.suit_iterator.name",
+      "text": "A unique device that, like the <link=tile.suit_fabricator>Suit Fabricator</link>, is capable of manipulating the ever-shifting atomic structure of the element <link=item.tutridium_gem>Tutridium</link>. However, rather than engineering the abilities that suits comprised of Tutridium grant, the Suit Iterator merely alters their appearances.",
+      "extra": [
+        {
+          "type": "item",
+          "value": "fiskheroes:suit_iterator",
+          "align": "right",
+          "pos": [0, -1],
+          "scale": 1.5
+        }
+      ]
+    },
+    {
+      "extra": [
+        {
+          "type": "text",
+          "value": "These changes are purely cosmetic and limited to design changes that preserve the original suit's capabilities. The Suit Iterator can interact with a <link=tile.display_stand>Display Stand</link> placed directly above it, and will use the stand to cycle through all of a suit's available alternate appearances if provided with a redstone signal."
+        }
+      ]
+    },
+    {
+      "extra": [
+        {
+          "type": "recipe",
+          "value": "fiskheroes:suit_iterator",
+          "align": "center",
+          "pos": [0, 0]
+        },
+        {
+          "type": "text",
+          "value": "\n\n\n\n\n\n\n\n&lDrops: &rItself\n&lHarvest Lvl: &rWood\n&lFortune: &rNo\n&lSilk Touch: &rN/A"
+        }
+      ]
+    },
+    {
+      "id": "tile.supercharged_eternium",
+      "header": "tile.supercharged_eternium.name",
+      "text": "Supercharged Eternium originally existed within the very heart of the Rock of Eternity before its destruction eons ago. It is saturated with the interdimensional energies of the Multiverse. Supercharged Eternium fragments spread throughout space create a conductive field of this energy that can be tapped into and manipulated,",
+      "extra": [
+        {
+          "type": "item",
+          "value": "fiskheroes:supercharged_eternium",
+          "align": "right",
+          "pos": [0, -1],
+          "scale": 1.5
+        }
+      ]
+    },
+    {
+      "extra": [
+        {
+          "type": "text",
+          "value": "creating what is commonly referred to as magic. Supercharged Eternium can be used to craft a <link=tile.cosmic_suit_fabricator>Cosmic Suit Fabricator</link>, a device capable of combining the molecular transformation properties of <link=item.tutridium_gem>Tutridium</link> with the Cosmic power of <link=item.eternium_shard>Eternium</link>. Eternium is lethal to <link=hero.fiskheroes.shazam_dceu>Shazam</link>, and will afflict him with <link=weakness.fiskheroes.eternium>Eternium Weakness</link> as long as he is in contact with or near the element."
+        }
+      ]
+    },
+    {
+      "extra": [
+        {
+          "type": "text",
+          "value": "Attempting to mine this block with any tool less powerful than a <link=item.tutridium_pickaxe>Tutridium Pickaxe</link> will result in an explosive surprise. A single block of Supercharged Eternium is worth 16,384 material points.\n\n&lDrops: &rItself\n&lHarvest Lvl: &rTutridium\n&lFortune: &rNo\n&lSilk Touch: &rN/A\n&lMaterial Pt. Value: &r16,384"
+        }
+      ]
+    },
+    {
+      "id": "item.tachyon_battery",
+      "header": "item.tachyon_battery.name",
+      "text": "An advanced piece of technology that appropriates the power of <link=tile.tachyonic_particle_core>Tachyons</link> - particles capable of moving faster than light. Tachyon batteries are commonly utilized to enhance a speedster's <link=ability.fiskheroes.super_speed>Speedforce</link> connection using either a <link=item.tachyon_prototype>Tachyon Prototype</link> or a <link=item.tachyon_device>Tachyon Device</link>. Tachyons can be harvested from the Quantum Realm.",
+      "extra": [
+        {
+          "type": "item",
+          "value": "fiskheroes:tachyon_battery",
+          "align": "right",
+          "pos": [0, -1],
+          "scale": 1.5
+        }
+      ]
+    },
+    {
+      "extra": [
+        {
+          "type": "recipe",
+          "value": "fiskheroes:tachyon_battery",
+          "align": "center",
+          "pos": [0, 0]
+        }
+      ]
+    },
+    {
+      "id": "item.tachyon_device",
+      "header": "item.tachyon_device.name",
+      "text": "An upgraded version of Eobard Thawne's <link=item.tachyon_prototype>Tachyon Prototype</link> design, envisioned by Cisco Ramon of S.T.A.R. Labs. The Tachyon Device bolsters one's connection to the Speedforce by 4 speed bars via exposure to <link=tile.tachyonic_particle_core>Tachyons</link>, particles capable of moving faster than light.",
+      "extra": [
+        {
+          "type": "item",
+          "value": "fiskheroes:tachyon_device",
+          "align": "right",
+          "pos": [0, -1],
+          "scale": 1.5
+        }
+      ]
+    },
+    {
+      "extra": [
+        {
+          "type": "text",
+          "value": "The Device skips the suit-charging phase of the Prototype's operation and instead is worn and depleted by a speedster as they run. Like its predecessor, the Tachyon Device's superluminal particle count must be restored by placing the Device on a crafting grid with <link=tile.tachyonic_particle_shell>Tachyon Particle Shells</link>."
+        }
+      ]
+    },
+    {
+      "extra": [
+        {
+          "type": "recipe",
+          "value": "fiskheroes:tachyon_device",
+          "align": "center",
+          "pos": [0, 0]
+        },
+        {
+          "type": "text",
+          "value": "\n\n\n\n\n\n\n\n&lUsable With: &r<link=ability.fiskheroes.super_speed>Speedster</link> suits\n&lSpeed Boost: &r4 levels"
+        }
+      ]
+    },
+    {
+      "id": "item.tachyon_prototype",
+      "header": "item.tachyon_prototype.name",
+      "text": "The Tachyon Prototype, developed by Mercury Labs, is an experimental device that bolsters one's connection to the Speedforce by 4 speed bars via exposure to <link=tile.tachyonic_particle_core>Tachyons</link>, particles capable of moving faster than light.\n\nA speedster's suit acts as the middleman between the",
+      "extra": [
+        {
+          "type": "item",
+          "value": "fiskheroes:tachyon_prototype",
+          "align": "right",
+          "pos": [0, -1],
+          "scale": 1.5
+        }
+      ]
+    },
+    {
+      "extra": [
+        {
+          "type": "text",
+          "value": "prototype and its user, for the device must be placed on <link=tile.display_stand>Display Stand</link> with a speedster suit to enrich it with tachyons. The Tachyon Prototype occasionally must be replenished via placing it on a crafting grid with <link=tile.tachyonic_particle_core>Tachyon Particle Shells</link>."
+        }
+      ]
+    },
+    {
+      "extra": [
+        {
+          "type": "recipe",
+          "value": "fiskheroes:tachyon_prototype",
+          "align": "center",
+          "pos": [0, 0]
+        },
+        {
+          "type": "text",
+          "value": "\n\n\n\n\n\n\n\n&lUsable With: &r<link=ability.fiskheroes.super_speed>Speedster</link> suits\n&lSpeed Boost: &r4 levels"
+        }
+      ]
+    },
+    {
+      "id": "tile.tachyonic_particle_core",
+      "header": "tile.tachyonic_particle_core.name",
+      "text": "The principle quark within the nucleus of a Tachyon, a particle capable of surpassing the speed of light. These superluminal particles can be harnessed to strengthen one's connection to the <link=ability.fiskheroes.super_speed>Speedforce</link>. Tachyon Particle Cores are necessary to craft a <link=item.tachyon_prototype>Tachyon Prototype</link> or <link=item.tachyon_device>Tachyon Device</link>.",
+      "extra": [
+        {
+          "type": "item",
+          "value": "fiskheroes:tachyonic_particle_core",
+          "align": "right",
+          "pos": [0, -1],
+          "scale": 1.5
+        }
+      ]
+    },
+    {
+      "extra": [
+        {
+          "type": "text",
+          "value": "Pym Particles allow this substance to be material in the perceivable world. Tachyons can be harvested from the Quantum Realm.\n\n&lDrops: &rItself\n&lHarvest Lvl: &rDiamond\n&lFortune: &rNo\n&lSilk Touch: &rN/A\n&lSpawns In: &rTachyon Particles - Quantum Realm"
+        }
+      ]
+    },
+   {
+      "id": "tile.tachyonic_particle_shell",
+      "header": "tile.tachyonic_particle_shell.name",
+      "text": "The nuclear shell of the Tachyon, a particle capable of surpassing the speed of light. These superluminal particles can be harnessed to strengthen one's connection to the <link=ability.fiskheroes.super_speed>Speedforce</link>. Tachyon Particle Shells can be used to replenish the Speedforce charge of a <link=item.tachyon_prototype>Tachyon Prototype</link> or <link=item.tachyon_device>Tachyon Device</link> via a crafting table.",
+      "extra": [
+        {
+          "type": "item",
+          "value": "fiskheroes:tachyonic_particle_shell",
+          "align": "right",
+          "pos": [0, -1],
+          "scale": 1.5
+        }
+      ]
+    },
+    {
+      "extra": [
+        {
+          "type": "text",
+          "value": "Pym Particles allow this substance to be material in the perceivable world. Tachyons can be harvested from the Quantum Realm.\n\n&lDrops: &rItself\n&lHarvest Lvl: &rWood\n&lFortune: &rNo\n&lSilk Touch: &rN/A\n&lSpawns In: &rTachyon Particles - Quantum Realm"
+        }
+      ]
+    },
+    {
+      "id": "item.black_canarys_tonfas",
+      "header": "item.black_canarys_tonfas.name",
+      "text": "A pair of wooden side-handle batons inspired by the weapons of modern law enforcement. Black Canary's Tactical Tonfas are an effective weapon, capable of attacking with twice the speed of a more traditional armament.",
+      "extra": [
+        {
+          "type": "item",
+          "value": "fiskheroes:black_canarys_tonfas",
+          "align": "right",
+          "pos": [0, -1],
+          "scale": 1.5
+        }
+      ]
+    },
+    {
+      "extra": [
+        {
+          "type": "recipe",
+          "value": "fiskheroes:black_canarys_tonfas",
+          "align": "center",
+          "pos": [0, 0]
+        },
+        {
+          "type": "text",
+          "value": "\n\n\n\n\n\n\n\n&lDamage: &r5\n&lDurability: &r1001\n&lRight-Click: &rDual hit\n&lEnchantments: &rNone"
+        }
+      ]
+    },
+    {
+      "id": "item.tutridium_gem",
+      "header": "item.tutridium_gem.name",
+      "text": "Tutridium is a covalent crystal renowned for its unique ability to alter its own subatomic structure at will. If harnessed via a <link=tile.suit_fabricator>Suit Fabricator</link>, this extraordinary element can be used to fabricate suits that alter their wearer's DNA and neurology.",
+      "extra": [
+        {
+          "type": "item",
+          "value": "fiskheroes:tutridium_gem",
+          "align": "right",
+          "pos": [2, -1],
+          "scale": 1.5
+        }
+      ]
+    },
+    {
+      "extra": [
+        {
+          "type": "text",
+          "value": "Tutridium is found in its pure form within <link=tile.tutridium_ore>Tutridium Ore</link>, and a single gem is worth 512 material points.\n\n&lMaterial Pt. Value: &r512"
+        }
+      ]
+    }, 
+    {
+      "id": "tile.tutridium_ore",
+      "header": "tile.tutridium_ore.name",
+      "text": "A rare ore embedded with shards of the remarkable element <link=item.tutridium_gem>Tutridium</link>. It occurs in single-block veins throughout the Overworld below height level 32. Tutridium Ore can spawn in a maximum of six veins per chunk.",
+      "extra": [
+        {
+          "type": "item",
+          "value": "fiskheroes:tutridium_ore",
+          "align": "right",
+          "pos": [0, -1],
+          "scale": 1.5
+        }
+      ]
+    },
+    {
+      "extra": [
+        {
+          "type": "text",
+          "value": "&lDrops: &r1 <link=item.tutridium_gem>Tutridium Gem</link>\n&lHarvest Lvl: &rIron\n&lFortune: &rNo\n&lSilk Touch: &rNo\n&lSpawns In: &rThe Overworld, Stone Particles - Quantum Realm"
+        }
+      ]
+    },
+    {
+      "id": "item.tutridium_pickaxe",
+      "header": "item.tutridium_pickaxe.name",
+      "text": "Previously thought infeasible, the Tutridium Pickaxe is a new technology, courtesy of Fisk Industries. By imbuing <link=item.tutridium_gem>Tutridium</link> with the molecular rigidity of Obsidian, the Tutridium Pickaxe allows its user to mine with efficiency and power previously thought impossible.",
+      "extra": [
+        {
+          "type": "item",
+          "value": "fiskheroes:tutridium_pickaxe",
+          "align": "right",
+          "pos": [0, -1],
+          "scale": 1.5
+        }
+      ]
+    },
+    {
+      "extra": [
+        {
+          "type": "text",
+          "value": "The Tutridium Pickaxe is the only known device capable of breaking <link=item.eternium_shard>Eternium</link>-related materials."
+        },
+        {
+          "type": "recipe",
+          "value": "fiskheroes:tutridium_pickaxe",
+          "align": "center",
+          "pos": [0, 40]
+        },
+        {
+          "type": "text",
+          "value": "\n\n\n\n\n\n\n\n\n\n\n\n&lEfficiency: &r10\n&lDurability: &r1,653\n&lEnchantments: &rNone"
+        }
+      ]
+    },
+    {
+      "id": "item.velocity_nine",
+      "header": "item.velocity_nine.name",
+      "text": "Velocity 9 is the latest variant of the speed drug Velocity, a stimulant that augments one's <link=ability.fiskheroes.super_speed>Speedforce</link> connection by 3 speed bars - or temporarily generates these if the user is not a speedster. Velocity works by energizing the user's DNA with the Speedforce via dark matter.",
+      "extra": [
+        {
+          "type": "item",
+          "value": "fiskheroes:velocity_nine",
+          "align": "right",
+          "pos": [0, -1],
+          "scale": 1.5
+        }
+      ]
+    },
+    {
+      "extra": [
+        {
+          "type": "text",
+          "value": "Then, as the sodium chlorate within Velocity decomposes, the user's blood is saturated with oxygen, greatly empowering their aerobic capabilities. Velocity inflicts its user with cell deterioration known as Speed Sickness, which progressively cripples one's Speedforce connection by 1 speed bar. The only cure to this ailment is another dosage of V9, but beware:"
+        }
+      ]
+    },
+    {
+      "extra": [
+        {
+          "type": "text",
+          "value": "With each ingestion, Velocity's duration is reduced, even as its potency increases.\n\n\n\n\n\n\n\n\n&lSpeed Boost: &r3 levels, +1 with each use\n&lDuration: &r5:00, /2 with each use"
+        },
+        {
+          "type": "recipe",
+          "value": "fiskheroes:velocity_nine",
+          "align": "center",
+          "pos": [0, 30]
+        }
+      ]
+    },
+    {
+      "id": "item.vibranium_disc_normal",
+      "header": "item.vibranium_disc_normal.name",
+      "text": "A circular construct made of <link=item.vibranium_plate>Vibranium</link>, a normally- extraterrestrial mineral distinguished by its near-invulnerability and peculiar molecular structure capable of negating kinetic energy entirely. Vibranium Discs are better suited to engineering purposes than their purer counterparts,",
+      "extra": [
+        {
+          "type": "item",
+          "value": "fiskheroes:vibranium_disc@-1",
+          "align": "right",
+          "pos": [1, -1],
+          "scale": 1.5
+        }
+      ]
+    },
+    {
+      "extra": [
+        {
+          "type": "text",
+          "value": "but also lose their subatomic-fluidity - Discs are worth only 1 material point.\n\n\n\n\n\n\n\n\n\n&lMaterial Pt. Value: &r1"
+        },
+        {
+          "type": "recipe",
+          "value": "fiskheroes:vibranium_disc@-1",
+          "align": "center",
+          "pos": [0, 35]
+        }
+      ]
+    },
+    {
+      "id": "tile.vibranium_ore",
+      "header": "tile.vibranium_ore.name",
+      "text": "An ore inlaid with the near-indestructible metal <link=item.vibranium_plate>Vibranium</link>. It occurs in veins of up to six blocks throughout the Overworld below height level 16. Vibranium Ore can spawn in a maximum of three veins per chunk.",
+      "extra": [
+        {
+          "type": "item",
+          "value": "fiskheroes:vibranium_ore",
+          "align": "right",
+          "pos": [0, -1],
+          "scale": 1.5
+        }
+      ]
+    },
+    {
+      "extra": [
+        {
+          "type": "text",
+          "value": "&lDrops: &rItself\n&lHarvest Lvl: &rIron\n&lFortune: &rNo\n&lSilk Touch: &rYes\n&lSpawns In: &rThe Overworld, Stone Particles - Quantum Realm"
+        }
+      ]
+    },
+    {
+      "id": "item.vibranium_plate",
+      "header": "item.vibranium_plate.name",
+      "text": "A purified shard of the metal Vibranium, an extraterrestrial mineral that to Earth on a meteorite long ago. Vibranium is distinguished by its near-invulnerability and peculiar molecular structure that is capable of negating kinetic energy entirely.",
+      "extra": [
+        {
+          "type": "item",
+          "value": "fiskheroes:vibranium_plate",
+          "align": "right",
+          "pos": [1, -1],
+          "scale": 1.5
+        }
+      ]
+    },
+    {
+      "extra": [
+        {
+          "type": "text",
+          "value": "If harnessed via a <link=tile.suit_fabricator>Suit Fabricator</link>, Vibranium can aid the element <link=item.tutridium_gem>Tutridium</link> in fabricating suits that alter their wearer's DNA and neurology. However, it is not as effective. A single Vibranium Shard is worth 32 material points."
+        }
+      ]
+    },
+    {
+      "extra": [
+        {
+          "type": "recipe",
+          "value": "fiskheroes:vibranium_plate",
+          "align": "center",
+          "pos": [0, 0]
+        },
+        {
+          "type": "text",
+          "value": "\n\n\n\n\n\n\n\n&lMaterial Pt. Value: &r32"
+        }
+      ]
+    }
+  ]
+}

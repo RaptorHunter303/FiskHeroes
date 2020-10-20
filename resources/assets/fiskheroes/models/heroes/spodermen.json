@@ -1,0 +1,7 @@
+{
+  "parent": "fiskheroes:hero_basic",
+  "resources": {
+    "layer1": "fiskheroes:spodermen_layer1",
+    "layer2": "fiskheroes:spodermen_layer2"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "parent": "fiskheroes:green_arrow",
+  "resources": {
+    "layer1": "fiskheroes:green_arrow_earthx_layer1",
+    "layer2": "fiskheroes:green_arrow_earthx_layer2",
+    "arrow": "fiskheroes:arrow/earthx",
+    "quiver": "fiskheroes:quiver/earthx",
+    "quiver_auto": "fiskheroes:quiver/earthx_auto"
+  },
+  "custom": {
+    "fiskheroes:archery": {
+      "textureArrow": "arrow",
+      "textureQuiver": "quiver",
+      "textureAutoQuiver": "quiver_auto"
+    }
+  }
+}

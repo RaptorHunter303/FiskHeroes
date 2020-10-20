@@ -1,0 +1,25 @@
+{
+  "pages": [
+    {
+      "id": "toc",
+      "header": "Table of Contents"
+    },
+    {
+      "text": "\n\n\n\n\n   &lby Dr Fisk A. Phil",
+      "extra": [
+        {
+          "type": "image",
+          "value": "fiskheroes-banner.png"
+        }
+      ]
+    }
+  ],
+  "chapters": [
+    "metahuman_log/abilities.json",
+    "metahuman_log/weaknesses.json",
+    "metahuman_log/characters.json",
+    "metahuman_log/items.json",
+    "metahuman_log/archery.json"
+  ],
+  "background": "fiskheroes:textures/gui/metahuman_log.png"
+}

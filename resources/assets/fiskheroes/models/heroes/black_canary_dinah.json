@@ -1,0 +1,38 @@
+{
+  "parent": "fiskheroes:hero_basic",
+  "resources": {
+    "layer1": "fiskheroes:black_canary_dinah_layer1",
+    "layer2": "fiskheroes:black_canary_dinah_layer2",
+    "mask": "fiskheroes:black_canary_dinah_mask",
+    "chest": "fiskheroes:black_canary_dinah_chest"
+  },
+  "texture": {
+    "renderLayer": {
+      "HELMET": "mask",
+      "CHESTPLATE": {
+        "wornHelmet": {
+          "fiskheroes:black_canary_dinah": "layer1"
+        },
+        "default": "chest"
+      },
+      "LEGGINGS": "layer2"
+    },
+    "default": "layer1"
+  },
+  "showModel": {
+    "head": ["HELMET"],
+    "headwear": ["HELMET"],
+    "body": ["HELMET", "CHESTPLATE", "LEGGINGS"],
+    "rightArm": ["CHESTPLATE"],
+    "leftArm": ["CHESTPLATE"],
+    "rightLeg": ["LEGGINGS", "BOOTS"],
+    "leftLeg": ["LEGGINGS", "BOOTS"]
+  },
+  "custom": {
+    "fiskheroes:chest": {
+      "applicable": ["CHESTPLATE"],
+      "extrude": 1,
+      "offset": 1
+    }
+  }
+}

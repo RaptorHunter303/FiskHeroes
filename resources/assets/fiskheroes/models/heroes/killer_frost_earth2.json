@@ -1,0 +1,51 @@
+{
+  "parent": "fiskheroes:hero_basic",
+  "resources": {
+    "layer1": "fiskheroes:killer_frost_earth2_layer1",
+    "layer2": "fiskheroes:killer_frost_earth2_layer2",
+    "chest": "fiskheroes:killer_frost_earth2_chest",
+    "hands": "fiskheroes:killer_frost_earth2_hands",
+    "hair": "fiskheroes:killer_frost_hair"
+  },
+  "texture": {
+    "renderLayer": {
+      "HELMET": "hair",
+      "CHESTPLATE": {
+        "wornHelmet": {
+          "fiskheroes:killer_frost/earth2": "layer1"
+        },
+        "default": "chest"
+      },
+      "LEGGINGS": "layer2"
+    },
+    "default": "layer1"
+  },
+  "showModel": {
+    "head": ["HELMET"],
+    "headwear": ["HELMET"],
+    "body": ["HELMET", "CHESTPLATE", "LEGGINGS"],
+    "rightArm": ["HELMET", "CHESTPLATE"],
+    "leftArm": ["HELMET", "CHESTPLATE"],
+    "rightLeg": ["LEGGINGS", "BOOTS"],
+    "leftLeg": ["LEGGINGS", "BOOTS"]
+  },
+  "itemIcons": {
+    "HELMET": "killer_frost_0",
+    "CHESTPLATE": "%s_1",
+    "LEGGINGS": "%s_2",
+    "BOOTS": "%s_3"
+  },
+  "custom": {
+    "fiskheroes:chest": {
+      "applicable": ["CHESTPLATE"],
+      "extrude": 0.75,
+      "offset": 1
+    },
+    "fiskheroes:overlay": {
+      "applicable": ["CHESTPLATE"],
+      "texture": ["null", "hands"],
+      "opacity": 0.8,
+      "data": "fiskheroes:cryo_charge"
+    }
+  }
+}

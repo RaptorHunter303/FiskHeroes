@@ -1,0 +1,36 @@
+{
+  "parent": "fiskheroes:rip_hunter_time_master",
+  "resources": {
+    "layer1": "fiskheroes:rip_hunter_layer1",
+    "pants_trenchcoat": "fiskheroes:rip_hunter_pants_trenchcoat",
+    "boots": "fiskheroes:rip_hunter_boots",
+    "boots_trenchcoat": "fiskheroes:rip_hunter_boots_trenchcoat"
+  },
+  "texture": {
+    "renderLayer": {
+      "LEGGINGS": {
+        "wornChestplate": {
+          "fiskheroes:rip_hunter": "pants_trenchcoat"
+        },
+        "default": "layer2"
+      },
+      "BOOTS": {
+        "wornChestplate": {
+          "fiskheroes:rip_hunter": "boots_trenchcoat"
+        },
+        "default": "boots"
+      }
+    },
+    "default": "layer1"
+  },
+  "showModel": {
+    "head": ["CHESTPLATE"],
+    "headwear": ["CHESTPLATE"],
+    "body": ["CHESTPLATE", "LEGGINGS"],
+    "rightArm": ["CHESTPLATE"],
+    "leftArm": ["CHESTPLATE"],
+    "rightLeg": ["CHESTPLATE", "LEGGINGS", "BOOTS"],
+    "leftLeg": ["CHESTPLATE", "LEGGINGS", "BOOTS"]
+  },
+  "fixHatLayer": ["CHESTPLATE"]
+}

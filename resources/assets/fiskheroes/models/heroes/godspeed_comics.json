@@ -1,0 +1,51 @@
+{
+  "parent": "fiskheroes:hero_speedster",
+  "resources": {
+    "layer1": "fiskheroes:godspeed_comics_layer1",
+    "layer2": "fiskheroes:godspeed_comics_layer2",
+    "layer1_on": "fiskheroes:godspeed_comics_layer1_on",
+    "layer2_on": "fiskheroes:godspeed_comics_layer2_on",
+    "lights": "fiskheroes:godspeed_comics_lights",
+    "lights_layer1": "fiskheroes:godspeed_comics_lights_layer1",
+    "lights_layer2": "fiskheroes:godspeed_comics_lights_layer2"
+  },
+  "texture": {
+    "vars:SPEEDING": {
+      "true": {
+        "renderLayer": {
+          "LEGGINGS": "layer2_on"
+        },
+        "default": "layer1_on"
+      }
+    },
+    "renderLayer": {
+      "LEGGINGS": "layer2"
+    },
+    "default": "layer1"
+  },
+  "lights": {
+    "vars:SPEEDING": {
+      "true": {
+        "renderLayer": {
+          "LEGGINGS": "lights_layer2"
+        },
+        "default": "lights_layer1"
+      }
+    },
+    "renderLayer": {
+      "CHESTPLATE": "lights"
+    },
+    "default": "null"
+  },
+  "custom": {
+    "fiskheroes:trail": {
+      "type": "fiskheroes:lightning_comics_yellow",
+      "conditionals": ["vars:SPEEDING"]
+    },
+    "fiskheroes:ears": {
+      "applicable": ["HELMET"],
+      "angle": 15,
+      "inset": 0.025
+    }
+  }
+}

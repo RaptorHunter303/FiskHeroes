@@ -1,0 +1,46 @@
+{
+  "parent": "fiskheroes:hero_basic",
+  "resources": {
+    "chest": "fiskheroes:the_monitor_chest",
+    "pants": "fiskheroes:the_monitor_pants",
+    "boots": "fiskheroes:the_monitor_boots",
+    "cape": "fiskheroes:the_monitor_cape"
+  },
+  "texture": {
+    "renderLayer": {
+      "CHESTPLATE": "chest",
+      "LEGGINGS": "pants"
+    },
+    "default": "boots"
+  },
+  "showModel": {
+    "head": ["CHESTPLATE"],
+    "headwear": ["CHESTPLATE"],
+    "body": ["CHESTPLATE", "LEGGINGS"],
+    "rightArm": ["CHESTPLATE"],
+    "leftArm": ["CHESTPLATE"],
+    "rightLeg": ["CHESTPLATE", "LEGGINGS", "BOOTS"],
+    "leftLeg": ["CHESTPLATE", "LEGGINGS", "BOOTS"]
+  },
+  "fixHatLayer": ["CHESTPLATE"],
+  "custom": {
+    "fiskheroes:cape": {
+      "applicable": ["CHESTPLATE"],
+      "texture": "cape",
+      "length": 21
+    },
+    "fiskheroes:energy_projection": {
+      "color": "0xFF2300",
+      "useHands": true,
+      "beams": [
+        {
+          "offset": [0.0, -5.0],
+          "size": [4.0, 4.0]
+        }
+      ]
+    },
+    "fiskheroes:teleportation": {
+      "particles": "fiskheroes:breach"
+    }
+  }
+}

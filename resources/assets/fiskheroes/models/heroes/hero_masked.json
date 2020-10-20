@@ -1,0 +1,17 @@
+{
+  "parent": "fiskheroes:hero_basic",
+  "texture": {
+    "renderLayer": {
+      "HELMET": {
+        "vars:MASK_OPEN": {
+          "true": "mask"
+        }
+      },
+      "LEGGINGS": "layer2"
+    },
+    "default": "layer1"
+  },
+  "vars": {
+    "MASK_OPEN": "entity.getData('fiskheroes:mask_open_timer') > 0"
+  }
+}

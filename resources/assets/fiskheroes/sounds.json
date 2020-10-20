@@ -1,0 +1,307 @@
+{
+  "ability.cryokinesis.charge": {
+    "sounds": [
+      "ability/cryokinesis/charge"
+    ],
+    "category": "player"
+  },
+  "ability.equipment.switch": {
+    "sounds": [
+      "ability/equipment/switch1",
+      "ability/equipment/switch2",
+      "ability/equipment/switch3",
+      "ability/equipment/switch4",
+      "ability/equipment/switch5",
+      "ability/equipment/switch6"
+    ],
+    "category": "player"
+  },
+  "ability.pyrokinesis.fireball": {
+    "sounds": [
+      "minecraft:mob/ghast/fireball4"
+    ],
+    "category": "player"
+  },
+  "ability.repulsor.blast": {
+    "sounds": [
+      "ability/repulsor/blast"
+    ],
+    "category": "player"
+  },
+  "ability.repulsor.charge": {
+    "sounds": [
+      "ability/repulsor/charge"
+    ],
+    "category": "player"
+  },
+  "ability.repulsor.powerdown": {
+    "sounds": [
+      "ability/repulsor/power_down"
+    ],
+    "category": "player"
+  },
+  "ability.sizemanipulation.grow": {
+    "sounds": [
+      "ability/size_manipulation/grow"
+    ],
+    "category": "player"
+  },
+  "ability.sizemanipulation.shrink": {
+    "sounds": [
+      "ability/size_manipulation/shrink"
+    ],
+    "category": "player"
+  },
+  "ambient.flight": {
+    "sounds": [
+      "ambient/flight_loop"
+    ],
+    "category": "ambient"
+  },
+  "batfish.click": {
+    "sounds": [
+      "batfish/button_click"
+    ],
+    "category": "master"
+  },
+  "batfish.coin": {
+    "sounds": [
+      "batfish/coin_pickup"
+    ],
+    "category": "master"
+  },
+  "batfish.death": {
+    "sounds": [
+      "batfish/death"
+    ],
+    "category": "master"
+  },
+  "batfish.explode": {
+    "sounds": [
+      "batfish/explode1",
+      "batfish/explode2",
+      "batfish/explode3",
+      "batfish/explode4"
+    ],
+    "category": "master"
+  },
+  "batfish.pop": {
+    "sounds": [
+      "batfish/pop"
+    ],
+    "category": "master"
+  },
+  "batfish.scream": {
+    "sounds": [
+      "batfish/scream"
+    ],
+    "category": "master"
+  },
+  "batfish.title": {
+    "sounds": [
+      {
+        "name": "batfish/title",
+        "stream": true
+      }
+    ],
+    "category": "master"
+  },
+  "batfish.whistle": {
+    "sounds": [
+      "batfish/whistle"
+    ],
+    "category": "master"
+  },
+  "batfish.woodbreak": {
+    "sounds": [
+      "batfish/woodbreak"
+    ],
+    "category": "master"
+  },
+  "batfish.world": {
+    "sounds": [
+      "batfish/world"
+    ],
+    "category": "master"
+  },
+  "block.nexussoil.ignite": {
+    "sounds": [
+      {
+        "name": "minecraft:mob/ghast/fireball4",
+        "pitch": 1.1
+      }
+    ],
+    "category": "block"
+  },
+  "entity.arrow.grapple.disconnect": {
+    "sounds": [
+      "minecraft:mob/sheep/shear"
+    ],
+    "category": "master"
+  },
+  "entity.arrow.pufferfish.flop": {
+    "sounds": [
+      "entity/arrow/pufferfish/flop1",
+      "entity/arrow/pufferfish/flop2",
+      "entity/arrow/pufferfish/flop3",
+      "entity/arrow/pufferfish/flop4"
+    ],
+    "category": "master"
+  },
+  "entity.arrow.pufferfish.primed": {
+    "sounds": [
+      "minecraft:random/fuse"
+    ],
+    "category": "master"
+  },
+  "entity.arrow.vine.snap": {
+    "sounds": [
+      "minecraft:mob/sheep/shear"
+    ],
+    "category": "master"
+  },
+  "entity.fireball.explode": {
+    "sounds": [
+      { "name": "minecraft:random/explode1", "pitch": 0.9 },
+      { "name": "minecraft:random/explode2", "pitch": 0.9 },
+      { "name": "minecraft:random/explode3", "pitch": 0.9 },
+      { "name": "minecraft:random/explode4", "pitch": 0.9 }
+    ],
+    "category": "master"
+  },
+  "entity.freezegrenade.freeze": {
+    "sounds": [
+      "ability/cryokinesis/charge"
+    ],
+    "category": "master"
+  },
+  "entity.icicle.impact": {
+    "sounds": [
+      "minecraft:random/glass1",
+      "minecraft:random/glass2",
+      "minecraft:random/glass3"
+    ],
+    "category": "master"
+  },
+  "item.battery.absorb": {
+    "sounds": [
+      "item/battery/absorb"
+    ],
+    "category": "block"
+  },
+  "item.battery.attach": {
+    "sounds": [
+      "item/battery/attach"
+    ],
+    "category": "player"
+  },
+  "item.battery.detach": {
+    "sounds": [
+      "item/battery/detach"
+    ],
+    "category": "player"
+  },
+  "item.battery.on": {
+    "sounds": [
+      "item/battery/on"
+    ],
+    "category": "block"
+  },
+  "item.bow.shoot": {
+    "sounds": [
+      "item/bow/shoot1",
+      "item/bow/shoot2",
+      "item/bow/shoot3"
+    ],
+    "category": "player"
+  },
+  "item.chronosrifle.shoot": {
+    "sounds": [
+      "item/laser_gun/shoot"
+    ],
+    "category": "player"
+  },
+  "item.ripsgun.shoot": {
+    "sounds": [
+      "item/laser_gun/shoot"
+    ],
+    "category": "player"
+  },
+  "item.shield.hit": {
+    "sounds": [
+      "item/shield/hit"
+    ],
+    "category": "master"
+  },
+  "item.shield.throw": {
+    "sounds": [
+      "item/shield/throw"
+    ],
+    "category": "player"
+  },
+  "mob.cactus.step": {
+    "sounds": [
+      "minecraft:mob/irongolem/walk1",
+      "minecraft:mob/irongolem/walk2",
+      "minecraft:mob/irongolem/walk3",
+      "minecraft:mob/irongolem/walk4"
+    ],
+    "category": "neutral"
+  },
+  "mob.ironman.blast": {
+    "sounds": [
+      "ability/repulsor/blast"
+    ],
+    "category": "neutral"
+  },
+  "mob.ironman.charge": {
+    "sounds": [
+      "ability/repulsor/charge"
+    ],
+    "category": "neutral"
+  },
+  "mob.ironman.hurt": {
+    "sounds": [
+      "minecraft:mob/zombie/metal1",
+      "minecraft:mob/zombie/metal2",
+      "minecraft:mob/zombie/metal3"
+    ],
+    "category": "neutral"
+  },
+  "mob.ironman.powerdown": {
+    "sounds": [
+      "ability/repulsor/power_down"
+    ],
+    "category": "neutral"
+  },
+  "random.batfish": {
+    "sounds": [
+      "random/batfish"
+    ],
+    "category": "block"
+  },
+  "random.fire.off": {
+    "sounds": [
+      {
+        "name": "minecraft:random/fizz",
+        "pitch": 0.8
+      }
+    ],
+    "category": "player"
+  },
+  "random.fire.on": {
+    "sounds": [
+      {
+        "name": "minecraft:mob/ghast/fireball4",
+        "pitch": 1.2
+      }
+    ],
+    "category": "player"
+  },
+  "random.spider": {
+    "sounds": [
+      "random/spider"
+    ],
+    "category": "player"
+  }
+}

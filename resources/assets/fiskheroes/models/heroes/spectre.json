@@ -1,0 +1,49 @@
+{
+  "parent": "fiskheroes:hero_basic",
+  "resources": {
+    "layer1": "fiskheroes:spectre_layer1",
+    "layer2": "fiskheroes:spectre_layer2",
+    "layer1_cloak": "fiskheroes:spectre_layer1_cloak",
+    "layer2_cloak": "fiskheroes:spectre_layer2_cloak",
+    "cloak": "fiskheroes:spectre_cloak"
+  },
+  "texture": {
+    "wornHelmet": {
+      "fiskheroes:spectre": {
+        "renderLayer": {
+          "HELMET": "cloak",
+          "LEGGINGS": "layer2_cloak"
+        },
+        "default": "layer1_cloak"
+      }
+    },
+    "renderLayer": {
+      "LEGGINGS": "layer2"
+    },
+    "default": "layer1"
+  },
+  "showModel": {
+    "head": ["HELMET"],
+    "headwear": ["HELMET"],
+    "body": ["HELMET", "CHESTPLATE", "LEGGINGS"],
+    "rightArm": ["HELMET", "CHESTPLATE"],
+    "leftArm": ["HELMET", "CHESTPLATE"],
+    "rightLeg": ["HELMET", "LEGGINGS", "BOOTS"],
+    "leftLeg": ["HELMET", "LEGGINGS", "BOOTS"]
+  },
+  "custom": {
+    "fiskheroes:energy_projection": {
+      "color": "0x0022FF",
+      "useHands": true,
+      "beams": [
+        {
+          "offset": [0.0, -5.0],
+          "size": [4.0, 4.0]
+        }
+      ]
+    },
+    "fiskheroes:teleportation": {
+      "particles": "fiskheroes:breach"
+    }
+  }
+}

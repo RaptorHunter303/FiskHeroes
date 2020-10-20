@@ -1,0 +1,15 @@
+{
+  "parent": "fiskheroes:hero_basic",
+  "resources": {
+    "layer1": "fiskheroes:dark_archer_layer1",
+    "layer2": "fiskheroes:dark_archer_layer2",
+    "arrow": "fiskheroes:arrow/dark_archer",
+    "quiver": "fiskheroes:quiver/dark_archer"
+  },
+  "custom": {
+    "fiskheroes:archery": {
+      "textureArrow": "arrow",
+      "textureQuiver": "quiver"
+    }
+  }
+}

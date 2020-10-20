@@ -1,0 +1,18 @@
+{
+  "parent": "fiskheroes:hero_speedster",
+  "resources": {
+    "layer1": "fiskheroes:trajectory_layer1",
+    "layer2": "fiskheroes:trajectory_layer2"
+  },
+  "custom": {
+    "fiskheroes:trail": {
+      "type": "fiskheroes:lightning_yellow",
+      "conditionals": ["vars:SPEEDING"]
+    },
+    "fiskheroes:chest": {
+      "applicable": ["CHESTPLATE"],
+      "extrude": 1,
+      "offset": 1
+    }
+  }
+}

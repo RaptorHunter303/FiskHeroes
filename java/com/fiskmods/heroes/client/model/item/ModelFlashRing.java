@@ -1,0 +1,196 @@
+package com.fiskmods.heroes.client.model.item;
+
+import org.lwjgl.opengl.GL11;
+
+import net.minecraft.client.model.ModelBase;
+import net.minecraft.client.model.ModelRenderer;
+
+public class ModelFlashRing extends ModelBase
+{
+    public ModelRenderer ring1;
+    public ModelRenderer upperRingSide1;
+    public ModelRenderer upperRingSide2;
+    public ModelRenderer topRing1;
+    public ModelRenderer upperRingBase1;
+    public ModelRenderer lightningBolt1;
+    public ModelRenderer ring2;
+    public ModelRenderer ring3;
+    public ModelRenderer ring4;
+    public ModelRenderer ring5;
+    public ModelRenderer ring6;
+    public ModelRenderer ring7;
+    public ModelRenderer ring8;
+    public ModelRenderer topRing2;
+    public ModelRenderer topRing3;
+    public ModelRenderer topRing4;
+    public ModelRenderer topRing5;
+    public ModelRenderer topRing6;
+    public ModelRenderer topRing7;
+    public ModelRenderer topRing8;
+    public ModelRenderer upperRingBase2;
+    public ModelRenderer lightningBolt2;
+    public ModelRenderer lightningBolt3;
+
+    public ModelFlashRing()
+    {
+        textureWidth = 32;
+        textureHeight = 32;
+        lightningBolt2 = new ModelRenderer(this, 6, 15);
+        lightningBolt2.setRotationPoint(0, 0, 0.8F);
+        lightningBolt2.addBox(0.3F, -0.5F, -0.2F, 1, 1, 2, 0);
+        topRing7 = new ModelRenderer(this, 9, 0);
+        topRing7.setRotationPoint(0, 0, 0);
+        topRing7.addBox(-1.5F, -3.65F, -1, 3, 1, 2, 0);
+        setRotateAngle(topRing7, 0, 0, -1.5707963267948966F);
+        ring2 = new ModelRenderer(this, 0, 0);
+        ring2.setRotationPoint(0, 0, 0);
+        ring2.addBox(-1.5F, -3.65F, -1.5F, 3, 1, 3, 0);
+        setRotateAngle(ring2, 0, 0, 0.7853981633974483F);
+        topRing5 = new ModelRenderer(this, 9, 0);
+        topRing5.setRotationPoint(0, 0, 0);
+        topRing5.addBox(-1.5F, -3.65F, -1, 3, 1, 2, 0);
+        setRotateAngle(topRing5, 0, 0, 3.141592653589793F);
+        topRing3 = new ModelRenderer(this, 9, 0);
+        topRing3.setRotationPoint(0, 0, 0);
+        topRing3.addBox(-1.5F, -3.65F, -1, 3, 1, 2, 0);
+        setRotateAngle(topRing3, 0, 0, 1.5707963267948966F);
+        upperRingSide2 = new ModelRenderer(this, 0, 15);
+        upperRingSide2.mirror = true;
+        upperRingSide2.setRotationPoint(1.58F, -0.95F, 0);
+        upperRingSide2.addBox(-0.5F, 0, -1, 1, 3, 2, 0);
+        setRotateAngle(upperRingSide2, 0, 0, -0.5235987755982988F);
+        lightningBolt3 = new ModelRenderer(this, 6, 15);
+        lightningBolt3.setRotationPoint(0, 0, -0.8F);
+        lightningBolt3.addBox(-1.3F, -0.5F, -1.8F, 1, 1, 2, 0);
+        topRing4 = new ModelRenderer(this, 9, 0);
+        topRing4.setRotationPoint(0, 0, 0);
+        topRing4.addBox(-1.5F, -3.65F, -1, 3, 1, 2, 0);
+        setRotateAngle(topRing4, 0, 0, 2.356194490192345F);
+        ring4 = new ModelRenderer(this, 0, 0);
+        ring4.setRotationPoint(0, 0, 0);
+        ring4.addBox(-1.5F, -3.65F, -1.5F, 3, 1, 3, 0);
+        setRotateAngle(ring4, 0, 0, 2.356194490192345F);
+        ring8 = new ModelRenderer(this, 0, 0);
+        ring8.setRotationPoint(0, 0, 0);
+        ring8.addBox(-1.5F, -3.65F, -1.5F, 3, 1, 3, 0);
+        setRotateAngle(ring8, 0, 0, -2.356194490192345F);
+        topRing6 = new ModelRenderer(this, 9, 0);
+        topRing6.setRotationPoint(0, 0, 0);
+        topRing6.addBox(-1.5F, -3.65F, -1, 3, 1, 2, 0);
+        setRotateAngle(topRing6, 0, 0, -0.7853981633974483F);
+        upperRingBase1 = new ModelRenderer(this, 0, 10);
+        upperRingBase1.setRotationPoint(0, -0.4F, 0);
+        upperRingBase1.addBox(-2.5F, -1, -2, 5, 1, 4, 0);
+        upperRingBase2 = new ModelRenderer(this, 0, 4);
+        upperRingBase2.setRotationPoint(0, 0, 0);
+        upperRingBase2.addBox(-2, -1, -2.5F, 4, 1, 5, 0);
+        ring3 = new ModelRenderer(this, 0, 0);
+        ring3.setRotationPoint(0, 0, 0);
+        ring3.addBox(-1.5F, -3.65F, -1.5F, 3, 1, 3, 0);
+        setRotateAngle(ring3, 0, 0, 1.5707963267948966F);
+        topRing1 = new ModelRenderer(this, 9, 0);
+        topRing1.setRotationPoint(0, -0.7F, 0);
+        topRing1.addBox(-1.5F, -3.65F, -1, 3, 1, 2, 0);
+        setRotateAngle(topRing1, 1.5707963267948966F, 0, 0);
+        ring5 = new ModelRenderer(this, 0, 0);
+        ring5.setRotationPoint(0, 0, 0);
+        ring5.addBox(-1.5F, -3.65F, -1.5F, 3, 1, 3, 0);
+        setRotateAngle(ring5, 0, 0, 3.141592653589793F);
+        topRing8 = new ModelRenderer(this, 9, 0);
+        topRing8.setRotationPoint(0, 0, 0);
+        topRing8.addBox(-1.5F, -3.65F, -1, 3, 1, 2, 0);
+        setRotateAngle(topRing8, 0, 0, -2.356194490192345F);
+        ring7 = new ModelRenderer(this, 0, 0);
+        ring7.setRotationPoint(0, 0, 0);
+        ring7.addBox(-1.5F, -3.65F, -1.5F, 3, 1, 3, 0);
+        setRotateAngle(ring7, 0, 0, -1.5707963267948966F);
+        ring1 = new ModelRenderer(this, 0, 0);
+        ring1.setRotationPoint(0, 3, 0);
+        ring1.addBox(-1.5F, -3.65F, -1.5F, 3, 1, 3, 0);
+        upperRingSide1 = new ModelRenderer(this, 0, 15);
+        upperRingSide1.setRotationPoint(-1.58F, -0.95F, 0);
+        upperRingSide1.addBox(-0.5F, 0, -1, 1, 3, 2, 0);
+        setRotateAngle(upperRingSide1, 0, 0, 0.5235987755982988F);
+        ring6 = new ModelRenderer(this, 0, 0);
+        ring6.setRotationPoint(0, 0, 0);
+        ring6.addBox(-1.5F, -3.65F, -1.5F, 3, 1, 3, 0);
+        setRotateAngle(ring6, 0, 0, -0.7853981633974483F);
+        topRing2 = new ModelRenderer(this, 9, 0);
+        topRing2.setRotationPoint(0, 0, 0);
+        topRing2.addBox(-1.5F, -3.65F, -1, 3, 1, 2, 0);
+        setRotateAngle(topRing2, 0, 0, 0.7853981633974483F);
+        lightningBolt1 = new ModelRenderer(this, 6, 15);
+        lightningBolt1.setRotationPoint(0, -1, 0);
+        lightningBolt1.addBox(-0.5F, -0.5F, -1, 1, 1, 2, 0);
+        setRotateAngle(lightningBolt1, 0, 0.5235987755982988F, 0);
+        lightningBolt1.addChild(lightningBolt2);
+        topRing1.addChild(topRing7);
+        ring1.addChild(ring2);
+        topRing1.addChild(topRing5);
+        topRing1.addChild(topRing3);
+        lightningBolt1.addChild(lightningBolt3);
+        topRing1.addChild(topRing4);
+        ring1.addChild(ring4);
+        ring1.addChild(ring8);
+        topRing1.addChild(topRing6);
+        upperRingBase1.addChild(upperRingBase2);
+        ring1.addChild(ring3);
+        ring1.addChild(ring5);
+        topRing1.addChild(topRing8);
+        ring1.addChild(ring7);
+        ring1.addChild(ring6);
+        topRing1.addChild(topRing2);
+    }
+
+    public void render()
+    {
+        GL11.glPushMatrix();
+        GL11.glTranslatef(upperRingSide2.offsetX, upperRingSide2.offsetY, upperRingSide2.offsetZ);
+        GL11.glTranslatef(upperRingSide2.rotationPointX * 0.0625F, upperRingSide2.rotationPointY * 0.0625F, upperRingSide2.rotationPointZ * 0.0625F);
+        GL11.glScaled(1.0D, 1.0D, 0.8D);
+        GL11.glTranslatef(-upperRingSide2.offsetX, -upperRingSide2.offsetY, -upperRingSide2.offsetZ);
+        GL11.glTranslatef(-upperRingSide2.rotationPointX * 0.0625F, -upperRingSide2.rotationPointY * 0.0625F, -upperRingSide2.rotationPointZ * 0.0625F);
+        upperRingSide2.render(0.0625F);
+        GL11.glPopMatrix();
+        GL11.glPushMatrix();
+        GL11.glTranslatef(upperRingBase1.offsetX, upperRingBase1.offsetY, upperRingBase1.offsetZ);
+        GL11.glTranslatef(upperRingBase1.rotationPointX * 0.0625F, upperRingBase1.rotationPointY * 0.0625F, upperRingBase1.rotationPointZ * 0.0625F);
+        GL11.glScaled(0.6D, 0.55D, 0.6D);
+        GL11.glTranslatef(-upperRingBase1.offsetX, -upperRingBase1.offsetY, -upperRingBase1.offsetZ);
+        GL11.glTranslatef(-upperRingBase1.rotationPointX * 0.0625F, -upperRingBase1.rotationPointY * 0.0625F, -upperRingBase1.rotationPointZ * 0.0625F);
+        upperRingBase1.render(0.0625F);
+        GL11.glPopMatrix();
+        GL11.glPushMatrix();
+        GL11.glTranslatef(topRing1.offsetX, topRing1.offsetY, topRing1.offsetZ);
+        GL11.glTranslatef(topRing1.rotationPointX * 0.0625F, topRing1.rotationPointY * 0.0625F, topRing1.rotationPointZ * 0.0625F);
+        GL11.glScaled(0.55D, 0.5D, 0.55D);
+        GL11.glTranslatef(-topRing1.offsetX, -topRing1.offsetY, -topRing1.offsetZ);
+        GL11.glTranslatef(-topRing1.rotationPointX * 0.0625F, -topRing1.rotationPointY * 0.0625F, -topRing1.rotationPointZ * 0.0625F);
+        topRing1.render(0.0625F);
+        GL11.glPopMatrix();
+        ring1.render(0.0625F);
+        GL11.glPushMatrix();
+        GL11.glTranslatef(upperRingSide1.offsetX, upperRingSide1.offsetY, upperRingSide1.offsetZ);
+        GL11.glTranslatef(upperRingSide1.rotationPointX * 0.0625F, upperRingSide1.rotationPointY * 0.0625F, upperRingSide1.rotationPointZ * 0.0625F);
+        GL11.glScaled(1.0D, 1.0D, 0.8D);
+        GL11.glTranslatef(-upperRingSide1.offsetX, -upperRingSide1.offsetY, -upperRingSide1.offsetZ);
+        GL11.glTranslatef(-upperRingSide1.rotationPointX * 0.0625F, -upperRingSide1.rotationPointY * 0.0625F, -upperRingSide1.rotationPointZ * 0.0625F);
+        upperRingSide1.render(0.0625F);
+        GL11.glPopMatrix();
+        GL11.glPushMatrix();
+        GL11.glTranslatef(lightningBolt1.offsetX, lightningBolt1.offsetY, lightningBolt1.offsetZ);
+        GL11.glTranslatef(lightningBolt1.rotationPointX * 0.0625F, lightningBolt1.rotationPointY * 0.0625F, lightningBolt1.rotationPointZ * 0.0625F);
+        GL11.glScaled(0.4D, 0.5D, 0.9D);
+        GL11.glTranslatef(-lightningBolt1.offsetX, -lightningBolt1.offsetY, -lightningBolt1.offsetZ);
+        GL11.glTranslatef(-lightningBolt1.rotationPointX * 0.0625F, -lightningBolt1.rotationPointY * 0.0625F, -lightningBolt1.rotationPointZ * 0.0625F);
+        lightningBolt1.render(0.0625F);
+        GL11.glPopMatrix();
+    }
+
+    public void setRotateAngle(ModelRenderer modelRenderer, float x, float y, float z)
+    {
+        modelRenderer.rotateAngleX = x;
+        modelRenderer.rotateAngleY = y;
+        modelRenderer.rotateAngleZ = z;
+    }
+}

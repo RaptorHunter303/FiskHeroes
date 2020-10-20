@@ -1,0 +1,18 @@
+{
+  "parent": "fiskheroes:hero_basic",
+  "resources": {
+    "layer1": "fiskheroes:chronos_layer1",
+    "layer2": "fiskheroes:chronos_layer2",
+    "cape": "fiskheroes:chronos_cape"
+  },
+  "custom": {
+    "fiskheroes:cape": {
+      "applicable": ["CHESTPLATE"],
+      "texture": "cape",
+      "length": 21
+    },
+    "fiskheroes:energy_bolt": {
+      "color": "0x6EFF00"
+    }
+  }
+}

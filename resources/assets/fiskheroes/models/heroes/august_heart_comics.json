@@ -1,0 +1,25 @@
+{
+  "parent": "fiskheroes:hero_speedster",
+  "resources": {
+    "layer1": "fiskheroes:august_heart_comics_layer1",
+    "layer2": "fiskheroes:august_heart_comics_layer2",
+    "pants": "fiskheroes:august_heart_comics_pants"
+  },
+  "texture": {
+    "renderLayer": {
+      "LEGGINGS": {
+        "wornChestplate": {
+          "fiskheroes:august_heart_comics": "layer2"
+        },
+        "default": "pants"
+      }
+    },
+    "default": "layer1"
+  },
+  "custom": {
+    "fiskheroes:trail": {
+      "type": "fiskheroes:lightning_comics_lime",
+      "conditionals": ["vars:SPEEDING"]
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "parent": "fiskheroes:hero_basic",
+  "resources": {
+    "layer1": "fiskheroes:anti_monitor_layer1",
+    "layer2": "fiskheroes:anti_monitor_layer2",
+    "layer3": "fiskheroes:anti_monitor_layer3",
+    "lights": "fiskheroes:anti_monitor_lights"
+  },
+  "texture": {
+    "renderLayer": {
+      "HELMET": {
+        "wornChestplate": {
+          "fiskheroes:anti_monitor": "layer3"
+        }
+      },
+      "CHESTPLATE": "layer1",
+      "BOOTS": "layer3"
+    },
+    "default": "layer2"
+  },
+  "lights": {
+    "renderLayer": {
+      "CHESTPLATE": "lights"
+    },
+    "default": "null"
+  },
+  "showModel": {
+    "head": ["HELMET", "CHESTPLATE"],
+    "headwear": ["HELMET", "CHESTPLATE"],
+    "body": ["CHESTPLATE", "LEGGINGS"],
+    "rightArm": ["CHESTPLATE"],
+    "leftArm": ["CHESTPLATE"],
+    "rightLeg": ["CHESTPLATE", "LEGGINGS", "BOOTS"],
+    "leftLeg": ["CHESTPLATE", "LEGGINGS", "BOOTS"]
+  },
+  "fixHatLayer": ["HELMET", "CHESTPLATE"],
+  "custom": {
+    "fiskheroes:energy_projection": {
+      "color": "0xFF1000",
+      "useHands": true,
+      "beams": [
+        {
+          "offset": [0.0, -5.0],
+          "size": [4.0, 4.0]
+        }
+      ]
+    },
+    "fiskheroes:teleportation": {
+      "particles": "fiskheroes:breach"
+    },
+    "fiskheroes:trail": {
+      "type": "fiskheroes:anti_monitor",
+      "conditionals": ["vars:GROWING"]
+    }
+  },
+  "vars": {
+    "GROWING": "entity.getData('fiskheroes:growing')"
+  }
+}

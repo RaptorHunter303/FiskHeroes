@@ -1,0 +1,70 @@
+{
+  "name": "Fisk's Superheroes",
+  "alts": {
+    "fiskheroes:captain_america": {
+      "nomad": {
+        "name": "hero.fiskheroes.captain_america.nomad.name",
+        "armor": {
+          "HELMET": "item.superhero_armor.piece.beard"
+        }
+      }
+    },
+    "fiskheroes:deadpool_xmen": {
+      "xforce": "hero.fiskheroes.deadpool_xmen.xforce.name"
+    },
+    "fiskheroes:doctor_strange": {
+      "eye": "hero.fiskheroes.doctor_strange.eye.name"
+    },
+    "fiskheroes:green_arrow": {
+      "earthx": "hero.fiskheroes.green_arrow.earthx.name",
+      "s4": "hero.fiskheroes.green_arrow.s4.name",
+      "s5": "hero.fiskheroes.green_arrow.s5.name"
+    },
+    "fiskheroes:guardian": {
+      "earthx": "hero.fiskheroes.guardian.earthx.name"
+    },
+    "fiskheroes:iron_man": {
+      "mk47": "hero.fiskheroes.iron_man.mk47.name"
+    },
+    "fiskheroes:killer_frost": {
+      "earth2": "hero.fiskheroes.killer_frost.earth2.name"
+    },
+    "fiskheroes:prometheus": {
+      "earthx": "hero.fiskheroes.prometheus.earthx.name"
+    },
+    "fiskheroes:reverse_flash": {
+      "earthx": "hero.fiskheroes.reverse_flash.earthx.name"
+    },
+    "fiskheroes:rip_hunter": {
+      "time_master": {
+        "name": "hero.fiskheroes.rip_hunter.time_master.name",
+        "armor": {
+          "CHESTPLATE": "item.superhero_armor.piece.jacket"
+        }
+      }
+    },
+    "fiskheroes:savitar": {
+      "red": "hero.fiskheroes.savitar.red.name"
+    },
+    "fiskheroes:the_flash": {
+      "earthx": "hero.fiskheroes.the_flash.earthx.name",
+      "s1": "hero.fiskheroes.the_flash.s1.name",
+      "s4": "hero.fiskheroes.the_flash.s4.name"
+    },
+    "fiskheroes:the_flash_jay": {
+      "earth90": {
+        "name": "hero.fiskheroes.the_flash_jay.earth90.name",
+        "armor": {
+          "HELMET": "item.superhero_armor.piece.cowl"
+        }
+      }
+    },
+    "fiskheroes:trajectory": {
+      "jesse": "hero.fiskheroes.trajectory.jesse.name"
+    },
+    "fiskheroes:zoom": {
+      "concept": "hero.fiskheroes.zoom.concept.name",
+      "death": "hero.fiskheroes.zoom.death.name"
+    }
+  }
+}

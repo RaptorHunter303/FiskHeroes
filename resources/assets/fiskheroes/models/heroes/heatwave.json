@@ -1,0 +1,24 @@
+{
+  "parent": "fiskheroes:hero_basic",
+  "resources": {
+    "jacket": "fiskheroes:heatwave_jacket",
+    "pants": "fiskheroes:heatwave_pants",
+    "boots": "fiskheroes:heatwave_boots"
+  },
+  "texture": {
+    "renderLayer": {
+      "LEGGINGS": "pants",
+      "BOOTS": "boots"
+    },
+    "default": "jacket"
+  },
+  "showModel": {
+    "head": ["HELMET"],
+    "headwear": ["HELMET"],
+    "body": ["CHESTPLATE", "LEGGINGS"],
+    "rightArm": ["CHESTPLATE"],
+    "leftArm": ["CHESTPLATE"],
+    "rightLeg": ["CHESTPLATE", "LEGGINGS", "BOOTS"],
+    "leftLeg": ["CHESTPLATE", "LEGGINGS", "BOOTS"]
+  }
+}

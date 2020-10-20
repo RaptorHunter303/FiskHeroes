@@ -1,0 +1,22 @@
+{
+  "parent": "fiskheroes:hero_basic",
+  "resources": {
+    "layer1": "fiskheroes:falcon_layer1",
+    "layer2": "fiskheroes:falcon_layer2",
+    "wings": "fiskheroes:falcon_wings",
+    "jetpack": "fiskheroes:falcon_jetpack",
+    "jetpack_lights": "fiskheroes:falcon_jetpack_lights"
+  },
+  "custom": {
+    "fiskheroes:wings": {
+      "applicable": ["CHESTPLATE"],
+      "texture": "wings",
+      "dataWings": "fiskheroes:wing_animation_timer",
+      "dataShield": "fiskheroes:shield_blocking_timer"
+    },
+    "fiskheroes:jetpack": {
+      "applicable": ["CHESTPLATE"],
+      "texture": ["jetpack", "jetpack_lights"]
+    }
+  }
+}

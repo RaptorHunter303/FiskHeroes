@@ -1,0 +1,15 @@
+{
+  "parent": "fiskheroes:hero_basic",
+  "resources": {
+    "layer1": "fiskheroes:colossus_xmen_layer1",
+    "layer2": "fiskheroes:colossus_xmen_layer2",
+    "metal": "fiskheroes:colossus_xmen_layer1_metal"
+  },
+  "custom": {
+    "fiskheroes:metal_heat": {
+      "applicable": ["HELMET", "CHESTPLATE"],
+      "texture": "metal",
+      "data": "fiskheroes:metal_heat"
+    }
+  }
+}

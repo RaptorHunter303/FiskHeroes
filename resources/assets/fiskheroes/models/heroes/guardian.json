@@ -1,0 +1,21 @@
+{
+  "parent": "fiskheroes:hero_basic",
+  "resources": {
+    "layer1": "fiskheroes:guardian_layer1",
+    "layer2": "fiskheroes:guardian_layer2",
+    "shield": "fiskheroes:guardian_shield",
+    "shield2": "fiskheroes:guardian_earthx_shield"
+  },
+  "custom": {
+    "fiskheroes:shield": {
+      "applicable": ["CHESTPLATE"],
+      "texture": "shield",
+      "offset": [4.25, 5.0, 0.0],
+      "rotation": [0.0, 0.0, 0.0],
+      "curve": [35.0, 35.0],
+      "mirror": false,
+      "large": false,
+      "data": "fiskheroes:shield_timer"
+    }
+  }
+}

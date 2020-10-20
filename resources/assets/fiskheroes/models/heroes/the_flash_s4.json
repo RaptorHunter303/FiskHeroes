@@ -1,0 +1,7 @@
+{
+  "parent": "fiskheroes:the_flash",
+  "resources": {
+    "layer1": "fiskheroes:the_flash_s4_layer1",
+    "layer2": "fiskheroes:the_flash_s4_layer2"
+  }
+}

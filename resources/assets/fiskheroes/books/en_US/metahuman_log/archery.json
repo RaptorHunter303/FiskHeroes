@@ -1,0 +1,380 @@
+{
+  "name": "Archery",
+  "pages": [
+    {
+      "id": "generated/summary"
+    },
+    {
+      "id": "item.compound_bow",
+      "header": "item.compound_bow.name",
+      "text": "The Compound Bow is a more advanced version of the standard wooden bow, capable of firing special <link=item.trick_arrow>Trick Arrows</link>. It does however take longer to draw back.\n\nThe bow can only be used with a <link=item.quiver>Quiver</link> in your inventory.",
+      "extra": [
+        {
+          "type": "item",
+          "value": "fiskheroes:compound_bow",
+          "align": "right",
+          "pos": [0, -1],
+          "scale": 1.5
+        }
+      ]
+    },
+    {
+      "extra": [
+        {
+          "type": "recipe",
+          "value": "fiskheroes:compound_bow",
+          "align": "center",
+          "pos": [0, 15]
+        },
+        {
+          "type": "text",
+          "value": "Press '<key.selectArrow>' to cycle between arrow slots.",
+          "pos": [0, 87]
+        }
+      ]
+    },
+    {
+      "id": "item.quiver",
+      "header": "item.quiver.name",
+      "text": "A container for <link=item.trick_arrow>Trick Arrows</link>, from which the <link=item.compound_bow>Compound Bow</link> chooses what to fire.",
+      "extra": [
+        {
+          "type": "item",
+          "value": "fiskheroes:quiver@0",
+          "align": "right",
+          "pos": [0, -1],
+          "scale": 1.5
+        },
+        {
+          "type": "recipe",
+          "value": "fiskheroes:quiver@0",
+          "align": "center",
+          "pos": [0, 44]
+        }
+      ]
+    },
+    {
+      "id": "item.auto_quiver",
+      "header": "item.auto_quiver.name",
+      "text": "Functions the same as the <link=item.quiver>Quiver</link>, but automatically restocks with <link=item.trick_arrow>Trick Arrows</link> from your inventory.",
+      "extra": [
+        {
+          "type": "item",
+          "value": "fiskheroes:quiver@1",
+          "align": "right",
+          "pos": [0, -1],
+          "scale": 1.5
+        },
+        {
+          "type": "recipe",
+          "value": "fiskheroes:quiver@1",
+          "align": "center",
+          "pos": [0, 53]
+        }
+      ]
+    },
+    {
+      "id": "item.trick_arrow",
+      "header": "item.trick_arrow.name",
+      "text": "Trick Arrows are special arrows which do different things. They can only be fired from a <link=item.compound_bow>Compound Bow</link>.",
+      "extra": [
+        {
+          "type": "item",
+          "value": "fiskheroes:trick_arrow@-1",
+          "align": "right",
+          "pos": [0, -1],
+          "scale": 1.5
+        },
+        {
+          "type": "itemlink",
+          "value": "fiskheroes:trick_arrow@0",
+          "pos": [0, 54]
+        },
+        {
+          "type": "itemlink",
+          "value": "fiskheroes:trick_arrow@1",
+          "pos": [0, 63]
+        },
+        {
+          "type": "itemlink",
+          "value": "fiskheroes:trick_arrow@2",
+          "pos": [0, 72]
+        },
+        {
+          "type": "itemlink",
+          "value": "fiskheroes:trick_arrow@3",
+          "pos": [0, 81]
+        },
+        {
+          "type": "itemlink",
+          "value": "fiskheroes:trick_arrow@4",
+          "pos": [0, 90]
+        },
+        {
+          "type": "itemlink",
+          "value": "fiskheroes:trick_arrow@5",
+          "pos": [0, 99]
+        }
+      ]
+    },
+    {
+      "extra": [
+        {
+          "type": "itemlink",
+          "value": "fiskheroes:trick_arrow@6",
+          "pos": [0, 9]
+        },
+        {
+          "type": "itemlink",
+          "value": "fiskheroes:trick_arrow@7",
+          "pos": [0, 18]
+        },
+        {
+          "type": "itemlink",
+          "value": "fiskheroes:trick_arrow@8",
+          "pos": [0, 27]
+        },
+        {
+          "type": "itemlink",
+          "value": "fiskheroes:trick_arrow@9",
+          "pos": [0, 36]
+        },
+        {
+          "type": "itemlink",
+          "value": "fiskheroes:trick_arrow@10",
+          "pos": [0, 45]
+        },
+        {
+          "type": "itemlink",
+          "value": "fiskheroes:trick_arrow@11",
+          "pos": [0, 54]
+        },
+        {
+          "type": "itemlink",
+          "value": "fiskheroes:trick_arrow@12",
+          "pos": [0, 63]
+        },
+        {
+          "type": "itemlink",
+          "value": "fiskheroes:trick_arrow@13",
+          "pos": [0, 72]
+        },
+        {
+          "type": "itemlink",
+          "value": "fiskheroes:trick_arrow@14",
+          "pos": [0, 81]
+        },
+        {
+          "type": "itemlink",
+          "value": "fiskheroes:trick_arrow@15",
+          "pos": [0, 90]
+        },
+        {
+          "type": "itemlink",
+          "value": "fiskheroes:trick_arrow@16",
+          "pos": [0, 99]
+        }
+      ]
+    },
+    {
+      "id": "item.arrow_normal",
+      "header": "item.arrow_normal.name",
+      "text": "A standard <link=item.trick_arrow>Trick Arrow</link> that does damage - no special effects attached.",
+      "extra": [
+        {
+          "type": "item",
+          "value": "fiskheroes:trick_arrow@0",
+          "align": "right",
+          "pos": [0, -1],
+          "scale": 1.5
+        },
+        {
+          "type": "recipe",
+          "value": "fiskheroes:trick_arrow@0",
+          "align": "center",
+          "pos": [0, 44]
+        }
+      ]
+    },
+    {
+      "id": "item.arrow_explosive",
+      "header": "item.arrow_explosive.name",
+      "text": "A <link=item.trick_arrow>Trick Arrow</link> that does area damage. (To mobs, not blocks.)",
+      "extra": [
+        {
+          "type": "item",
+          "value": "fiskheroes:trick_arrow@1",
+          "align": "right",
+          "pos": [0, -1],
+          "scale": 1.5
+        },
+        {
+          "type": "recipe",
+          "value": "fiskheroes:trick_arrow@1",
+          "align": "center",
+          "pos": [0, 44]
+        }
+      ]
+    },
+    {
+      "id": "item.arrow_grappling_hook",
+      "header": "item.arrow_grappling_hook.name",
+      "text": "A <link=item.trick_arrow>Trick Arrow</link> which, when fired, reels the player towards whatever was hit.",
+      "extra": [
+        {
+          "type": "item",
+          "value": "fiskheroes:trick_arrow@2",
+          "align": "right",
+          "pos": [0, -1],
+          "scale": 1.5
+        },
+        {
+          "type": "recipe",
+          "value": "fiskheroes:trick_arrow@2",
+          "align": "center",
+          "pos": [0, 44]
+        }
+      ]
+    },
+    {
+      "id": "item.arrow_triple",
+      "header": "item.arrow_triple.name",
+      "text": "A group of three <link=item.trick_arrow>Trick Arrows</link> that fire together. One follows the primary path of the shot, while the other two stray.",
+      "extra": [
+        {
+          "type": "item",
+          "value": "fiskheroes:trick_arrow@3",
+          "align": "right",
+          "pos": [0, -1],
+          "scale": 1.5
+        },
+        {
+          "type": "recipe",
+          "value": "fiskheroes:trick_arrow@3",
+          "align": "center",
+          "pos": [0, 53]
+        }
+      ]
+    },
+    {
+      "id": "item.arrow_carrot",
+      "header": "item.arrow_carrot.name",
+      "text": "A <link=item.trick_arrow>Trick Arrow</link> with a carrot attached to the tip. Gives target night vision for 1 minute.",
+      "extra": [
+        {
+          "type": "item",
+          "value": "fiskheroes:trick_arrow@4",
+          "align": "right",
+          "pos": [0, -1],
+          "scale": 1.5
+        },
+        {
+          "type": "recipe",
+          "value": "fiskheroes:trick_arrow@4",
+          "align": "center",
+          "pos": [0, 44]
+        }
+      ]
+    },
+    {
+      "id": "item.arrow_firework",
+      "header": "item.arrow_firework.name",
+      "text": "A <link=item.trick_arrow>Trick Arrow</link> with a firework attached to the tip. Will explode upon impact, or after a certain period of time.",
+      "extra": [
+        {
+          "type": "item",
+          "value": "fiskheroes:trick_arrow@5",
+          "align": "right",
+          "pos": [0, -1],
+          "scale": 1.5
+        },
+        {
+          "type": "recipe",
+          "value": "fiskheroes:trick_arrow@5",
+          "align": "center",
+          "pos": [0, 53]
+        }
+      ]
+    },
+    {
+      "id": "item.arrow_fire_charge",
+      "header": "item.arrow_fire_charge.name",
+      "text": "A <link=item.trick_arrow>Trick Arrow</link> that sets whatever it hits on fire. If a block, it will return a <link=item.arrow_normal>Normal Arrow</link>.",
+      "extra": [
+        {
+          "type": "item",
+          "value": "fiskheroes:trick_arrow@6",
+          "align": "right",
+          "pos": [0, -1],
+          "scale": 1.5
+        },
+        {
+          "type": "recipe",
+          "value": "fiskheroes:trick_arrow@6",
+          "align": "center",
+          "pos": [0, 44]
+        }
+      ]
+    },
+    {
+      "id": "item.arrow_cactus",
+      "header": "item.arrow_cactus.name",
+      "text": "A <link=item.trick_arrow>Trick Arrow</link> that explodes into a cluster of cactus spikes upon impact.",
+      "extra": [
+        {
+          "type": "item",
+          "value": "fiskheroes:trick_arrow@7",
+          "align": "right",
+          "pos": [0, -1],
+          "scale": 1.5
+        },
+        {
+          "type": "recipe",
+          "value": "fiskheroes:trick_arrow@7",
+          "align": "center",
+          "pos": [0, 44]
+        }
+      ]
+    },
+    {
+      "id": "item.arrow_boxing_glove",
+      "header": "item.arrow_boxing_glove.name",
+      "text": "A <link=item.trick_arrow>Trick Arrow</link> with a boxing glove attached to the tip. Deals less damage, but returns a <link=item.arrow_normal>Normal Arrow</link>. +2 knockback.",
+      "extra": [
+        {
+          "type": "item",
+          "value": "fiskheroes:trick_arrow@8",
+          "align": "right",
+          "pos": [0, -1],
+          "scale": 1.5
+        },
+        {
+          "type": "recipe",
+          "value": "fiskheroes:trick_arrow@8",
+          "align": "center",
+          "pos": [0, 50]
+        }
+      ]
+    },
+    {
+      "id": "item.arrow_vial",
+      "header": "item.arrow_vial.name",
+      "text": "A <link=item.trick_arrow>Trick Arrow</link> with a potion attached to the tip. Returns a <link=item.arrow_normal>Normal Arrow</link>.",
+      "extra": [
+        {
+          "type": "item",
+          "value": "fiskheroes:trick_arrow@9",
+          "align": "right",
+          "pos": [0, -1],
+          "scale": 1.5
+        },
+        {
+          "type": "recipe",
+          "value": "fiskheroes:trick_arrow@9",
+          "align": "center",
+          "pos": [0, 44]
+        }
+      ]
+    }
+  ]
+}

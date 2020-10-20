@@ -1,0 +1,28 @@
+{
+  "parent": "fiskheroes:zoom",
+  "resources": {
+    "eyes": "fiskheroes:zoom_concept_eyes"
+  },
+  "lights": {
+    "renderLayer": {
+      "HELMET": {
+        "vars:SPEEDING": {
+          "true": "eyes"
+        }
+      }
+    },
+    "default": "null"
+  },
+  "itemIcons": {
+    "HELMET": "%s_0",
+    "CHESTPLATE": "zoom_1",
+    "LEGGINGS": "zoom_2",
+    "BOOTS": "zoom_3"
+  },
+  "custom": {
+    "fiskheroes:vibration": {
+      "applicable": ["HELMET", "CHESTPLATE", "LEGGINGS", "BOOTS"],
+      "conditionals": ["vars:SPEEDING"]
+    }
+  }
+}

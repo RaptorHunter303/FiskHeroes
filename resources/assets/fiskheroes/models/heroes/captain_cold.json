@@ -1,0 +1,55 @@
+{
+  "parent": "fiskheroes:hero_basic",
+  "resources": {
+    "jacket": "fiskheroes:captain_cold_jacket",
+    "jacket_pants": "fiskheroes:captain_cold_jacket_pants",
+    "pants": "fiskheroes:captain_cold_pants",
+    "pants_jacket": "fiskheroes:captain_cold_pants_jacket",
+    "boots": "fiskheroes:captain_cold_boots",
+    "lights": "fiskheroes:captain_cold_lights"
+  },
+  "texture": {
+    "renderLayer": {
+      "CHESTPLATE": {
+        "wornLeggings": {
+          "fiskheroes:captain_cold": "jacket_pants"
+        },
+        "default": "jacket"
+      },
+      "LEGGINGS": {
+        "wornChestplate": {
+          "fiskheroes:captain_cold": "pants_jacket"
+        },
+        "default": "pants"
+      }
+    },
+    "default": "boots"
+  },
+  "lights": {
+    "renderLayer": {
+      "CHESTPLATE": {
+        "wornLeggings": {
+          "fiskheroes:captain_cold": "lights"
+        },
+        "default": "null"
+      },
+      "LEGGINGS": {
+        "wornChestplate": {
+          "fiskheroes:captain_cold": "null"
+        },
+        "default": "lights"
+      }
+    },
+    "default": "null"
+  },
+  "showModel": {
+    "head": ["HELMET", "CHESTPLATE"],
+    "headwear": ["HELMET", "CHESTPLATE"],
+    "body": ["CHESTPLATE", "LEGGINGS"],
+    "rightArm": ["CHESTPLATE"],
+    "leftArm": ["CHESTPLATE"],
+    "rightLeg": ["CHESTPLATE", "LEGGINGS", "BOOTS"],
+    "leftLeg": ["CHESTPLATE", "LEGGINGS", "BOOTS"]
+  },
+  "fixHatLayer": ["HELMET", "CHESTPLATE"]
+}

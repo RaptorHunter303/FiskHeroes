@@ -1,0 +1,24 @@
+{
+  "parent": "fiskheroes:hero_masked",
+  "resources": {
+    "layer1": "fiskheroes:black_lightning_layer1",
+    "layer2": "fiskheroes:black_lightning_layer2",
+    "layer1_lights": "fiskheroes:black_lightning_layer1_lights",
+    "layer2_lights": "fiskheroes:black_lightning_layer2_lights",
+    "mask": "fiskheroes:black_lightning_mask_open"
+  },
+  "lights": {
+    "renderLayer": {
+      "LEGGINGS": "layer2_lights"
+    },
+    "default": "layer1_lights"
+  },
+  "custom": {
+    "fiskheroes:propelled_flight": {
+      "particleType": "BLACK_LIGHTNING"
+    },
+    "fiskheroes:lightning_attack": {
+      "color": "0x0049FF"
+    }
+  }
+}

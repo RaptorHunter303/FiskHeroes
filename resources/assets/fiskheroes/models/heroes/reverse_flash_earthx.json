@@ -1,0 +1,12 @@
+{
+  "parent": "fiskheroes:reverse_flash",
+  "resources": {
+    "layer1": "fiskheroes:reverse_flash_earthx_layer1"
+  },
+  "itemIcons": {
+    "HELMET": "%s_0",
+    "CHESTPLATE": "%s_1",
+    "LEGGINGS": "reverse_flash_2",
+    "BOOTS": "reverse_flash_3"
+  }
+}

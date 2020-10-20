@@ -1,0 +1,18 @@
+{
+  "parent": "fiskheroes:hero_speedster",
+  "resources": {
+    "layer1": "fiskheroes:the_rival_layer1",
+    "layer2": "fiskheroes:the_rival_layer2"
+  },
+  "custom": {
+    "fiskheroes:trail": {
+      "type": "fiskheroes:lightning_red",
+      "conditionals": ["vars:SPEEDING"]
+    },
+    "fiskheroes:ears": {
+      "applicable": ["HELMET"],
+      "angle": 20,
+      "inset": 0.075
+    }
+  }
+}

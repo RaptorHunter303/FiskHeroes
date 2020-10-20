@@ -1,0 +1,15 @@
+{
+  "parent": "fiskheroes:hero_basic",
+  "resources": {
+    "layer1": "fiskheroes:the_tick_layer1",
+    "layer2": "fiskheroes:the_tick_layer2"
+  },
+  "custom": {
+    "fiskheroes:antennae": {
+      "applicable": ["HELMET"],
+      "angle": 90,
+      "offset": 0.125,
+      "segments": 8
+    }
+  }
+}

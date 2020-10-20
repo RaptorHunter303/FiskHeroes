@@ -1,0 +1,6 @@
+{
+  "parent": "fiskheroes:lightning_comics",
+  "constants": {
+    "COLOR": "0xFFFF68"
+  }
+}

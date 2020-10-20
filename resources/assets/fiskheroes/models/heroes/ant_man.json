@@ -1,0 +1,15 @@
+{
+  "parent": "fiskheroes:hero_basic",
+  "resources": {
+    "layer1": "fiskheroes:ant_man_layer1",
+    "layer2": "fiskheroes:ant_man_layer2",
+    "lights": "fiskheroes:ant_man_lights"
+  },
+  "lights": {
+    "renderLayer": {
+      "HELMET": "lights",
+      "CHESTPLATE": "lights"
+    },
+    "default": "null"
+  }
+}

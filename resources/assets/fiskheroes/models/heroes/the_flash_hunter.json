@@ -1,0 +1,19 @@
+{
+  "parent": "fiskheroes:hero_speedster",
+  "resources": {
+    "layer1": "fiskheroes:the_flash_hunter_layer1",
+    "layer2": "fiskheroes:the_flash_hunter_layer2"
+  },
+  "itemIcons": {
+    "HELMET": "the_flash_jay_0",
+    "CHESTPLATE": "%s_1",
+    "LEGGINGS": "%s_2",
+    "BOOTS": "%s_3"
+  },
+  "custom": {
+    "fiskheroes:trail": {
+      "type": "fiskheroes:lightning_gold",
+      "conditionals": ["vars:SPEEDING"]
+    }
+  }
+}

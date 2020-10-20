@@ -1,0 +1,21 @@
+{
+  "parent": "fiskheroes:hero_basic",
+  "resources": {
+    "layer1": "fiskheroes:citizen_steel_layer1",
+    "layer2": "fiskheroes:citizen_steel_layer2",
+    "metal": "fiskheroes:citizen_steel_metal"
+  },
+  "custom": {
+    "fiskheroes:metal_heat": {
+      "applicable": ["HELMET", "CHESTPLATE"],
+      "texture": "metal",
+      "data": "fiskheroes:metal_heat"
+    },
+    "fiskheroes:overlay": {
+      "applicable": ["HELMET", "CHESTPLATE"],
+      "texture": "metal",
+      "opacity": 1.0,
+      "data": "fiskheroes:steel_timer"
+    }
+  }
+}

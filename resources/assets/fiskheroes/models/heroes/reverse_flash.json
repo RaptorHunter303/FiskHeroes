@@ -1,0 +1,28 @@
+{
+  "parent": "fiskheroes:hero_speedster",
+  "resources": {
+    "layer1": "fiskheroes:reverse_flash_layer1",
+    "layer2": "fiskheroes:reverse_flash_layer2",
+    "eyes": "fiskheroes:reverse_flash_eyes"
+  },
+  "lights": {
+    "renderLayer": {
+      "HELMET": {
+        "vars:SPEEDING": {
+          "true": "eyes"
+        }
+      }
+    },
+    "default": "null"
+  },
+  "custom": {
+    "fiskheroes:trail": {
+      "type": "fiskheroes:lightning_red",
+      "conditionals": ["vars:SPEEDING"]
+    },
+    "fiskheroes:vibration": {
+      "applicable": ["HELMET", "CHESTPLATE", "LEGGINGS", "BOOTS"],
+      "conditionals": ["vars:SPEEDING"]
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "parent": "fiskheroes:hero_masked",
+  "resources": {
+    "layer1": "fiskheroes:atom_layer1",
+    "layer2": "fiskheroes:atom_layer2",
+    "lights": "fiskheroes:atom_lights",
+    "mask": "fiskheroes:atom_mask.tx.json"
+  },
+  "lights": {
+    "renderLayer": {
+      "CHESTPLATE": "lights"
+    },
+    "default": "null"
+  },
+  "custom": {
+    "fiskheroes:propelled_flight": {
+      "particleType": "ATOM"
+    }
+  }
+}

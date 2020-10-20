@@ -1,0 +1,308 @@
+{
+  "name": "Powers & Abilities",
+  "pages": [
+    {
+      "id": "generated/summary"
+    },
+    {
+      "id": "ability.fiskheroes.absolute_intangibility",
+      "header": "ability.fiskheroes.absolute_intangibility.name",
+      "text": "The user is attuned with the Mind Stone, granting them absolute control over the quantum state of their molecules. This affords the user complete mastery over their own density and the ability to shift their mass out of vibrational phase with adjacent matter. Further, the user can react adaptively to immediate changes in"
+    },
+    {
+      "text": "surrounding matter and energy using these abilities, meaning they can not only phase through solid substances, but attacks of any kind as well. Activated by pressing '<key.intangibility>', Absolute Intangibility will allow the user to pass through any blocks and enjoy immunity from all forms of damage."
+    },
+    {
+      "text": "However, this ability can only be used for a brief period of time before the user must seek molecular continuity with their environment. The user’s ability to use Absolute Intangibility is indicated by the status bar above one’s inventory hotbar.\n\n&lUsers:\n\n• <link=hero.fiskheroes.vision>Vision</link>"
+    },
+    {
+      "id": "ability.fiskheroes.accelerated_perception",
+      "header": "ability.fiskheroes.accelerated_perception.name",
+      "text": "Perceived temporal dilution that is unique to users of the <link=ability.fiskheroes.super_speed>Speedforce</link>. Referred to as \"Flashtime\" by some, Accelerated Perception allows the user to be aware of what's happening around them far faster than normal, allowing more time to react tactically. Pressing '<key.slowMotion>' will toggle this ability."
+    },
+    {
+      "text": "&lUsers:\n\n• <link=hero.fiskheroes.august_heart_comics>August Heart (Comics)</link>\n• <link=hero.fiskheroes.godspeed_comics>Godspeed (Comics)</link>\n• <link=hero.fiskheroes.kid_flash>Kid Flash</link>\n• <link=hero.fiskheroes.reverse_flash>Reverse-Flash</link>\n• <link=hero.fiskheroes.savitar>Savitar</link>\n• <link=hero.fiskheroes.the_flash>The Flash</link>\n• <link=hero.fiskheroes.the_flash_hunter>The Flash/Hunter Zolomon</link>\n• <link=hero.fiskheroes.the_flash_jay>The Flash/Jay Garrick</link>\n• <link=hero.fiskheroes.the_rival>The Rival</link>\n• <link=hero.fiskheroes.trajectory>Trajectory</link>\n• <link=hero.fiskheroes.zoom>Zoom</link>"
+    },
+    {
+      "id": "ability.fiskheroes.archery",
+      "header": "ability.fiskheroes.archery.name",
+      "text": "Years of rigorous training have rendered the user a master archer. In addition to being capable of drawing a bow with ease, the user can proficiently use a <link=item.compound_bow>Compound Bow</link> while holding it horizontally by pressing '<key.horizontalBow>'. This allows the user to trade range for increased accuracy."
+    },
+    {
+      "text": "&lUsers:\n\n• <link=hero.fiskheroes.arrow>Arrow</link>\n• <link=hero.fiskheroes.arsenal>Arsenal</link>\n• <link=hero.fiskheroes.dark_archer>Dark Archer</link>\n• <link=hero.fiskheroes.green_arrow>Green Arrow</link>\n• <link=hero.fiskheroes.prometheus>Prometheus</link>\n• <link=hero.fiskheroes.spectre>Spectre</link>"
+    },
+    {
+      "id": "ability.fiskheroes.cactus_physiology",
+      "header": "ability.fiskheroes.cactus_physiology.name",
+      "text": "Cutting-edge genetic splicing techniques practiced on the user have transformed them into a human-cactus hybrid. This allows for the user to expel lethal spikes at will, both as a directed blast and as a powerful area of effect attack by using '<key.attack>' and '<key.shootSpikes>', respectively — though each of these these abilities come at the cost of hunger."
+    },
+    {
+      "text": "The user, being a cactus, can also survive indefinitely underwater. By holding '<key.point>' and '<key.use>' simultaneously on a cactus, the user can create a Cactus Minion who will attack hostile mobs and opponents.\n\n&lUsers:\n\n• <link=hero.fiskheroes.senor_cactus>Señor Cactus</link>"
+    },
+    {
+      "id": "ability.fiskheroes.canary_cry",
+      "header": "ability.fiskheroes.canary_cry.name",
+      "text": "Either through the use of a powerful sonic weapon perfected by Cisco Ramon of S.T.A.R. Labs or by means of Metahuman physiology, the user is able to manipulate sound as a weapon. By holding '<key.canaryCry>', the user can produce high-frequency soundwaves that damage and knock back targets, shatter glass,"
+    },
+    {
+      "text": "and negate the momentum of oncoming projectiles. While falling, the user can \"scream\" at the ground to slow their descent, protecting them from fall damage.\n\n&lUsers:\n\n• <link=hero.fiskheroes.black_canary_dinah>Black Canary/Dinah Drake</link>\n• <link=hero.fiskheroes.black_canary>Black Canary/Laurel Lance</link>"
+    },
+    {
+      "id": "ability.fiskheroes.cellular_regeneration",
+      "header": "ability.fiskheroes.cellular_regeneration.name",
+      "text": "The user's metabolism and biological functions have been substantially accelerated by Super Soldier Serum, a connection to the <link=ability.fiskheroes.super_speed>Speedforce</link>, or another variant of Metahuman physiology. This grants the user superhuman healing abilities and immunity to all earthly ailments. While the user has a full hunger bar,"
+    },
+    {
+      "text": "natural regeneration will occur at a rate 400% faster than usual. Additionally, Cellular Regeneration negates the effects of Nausea, Poison, and the Wither effect.\n\n&lUsers:\n\n• <link=hero.fiskheroes.august_heart_comics>August Heart (Comics)</link>\n• <link=hero.fiskheroes.captain_america>Captain America</link>\n• <link=hero.fiskheroes.citizen_steel>Citizen Steel</link>\n• <link=hero.fiskheroes.godspeed_comics>Godspeed (Comics)</link>\n• <link=hero.fiskheroes.kid_flash>Kid Flash</link>"
+    },
+    {
+      "text": "• <link=hero.fiskheroes.senor_cactus>Señor Cactus</link>\n• <link=hero.fiskheroes.the_flash>The Flash</link>\n• <link=hero.fiskheroes.the_flash_hunter>The Flash/Hunter Zolomon</link>\n• <link=hero.fiskheroes.the_flash_jay>The Flash/Jay Garrick</link>\n• <link=hero.fiskheroes.the_rival>The Rival</link>\n• <link=hero.fiskheroes.zoom>Zoom</link>\n• <link=hero.fiskheroes.reverse_flash>Reverse-Flash</link>\n• <link=hero.fiskheroes.savitar>Savitar</link>"
+    },
+    {
+      "id": "ability.fiskheroes.cold_resistance",
+      "header": "ability.fiskheroes.cold_resistance.name",
+      "text": "A thick winter coat and a natural affinity for all things cold allow the user to endure sub-zero suffering with far less complaining. All cold-based damage is halved.\n\n&lUsers:\n\n• <link=hero.fiskheroes.captain_cold>Captain Cold</link>"
+    },
+    {
+      "id": "ability.fiskheroes.cryokinesis",
+      "header": "ability.fiskheroes.cryokinesis.name",
+      "text": "Metahuman physiology of the cryogenic variation grants the user the ability to manipulate ice as a dangerous weapon. By holding '<key.chargeIce>', the user can build up a \"cryo-charge\", which can be used to expel icicles from the user's hand by pressing '<key.use>'. The higher one's \"cryo-charge\", the more icicles they will launch."
+    },
+    {
+      "text": "&lUsers:\n\n• <link=hero.fiskheroes.killer_frost>Killer Frost</link>"
+    },
+    {
+      "id": "ability.fiskheroes.electrokinesis",
+      "header": "ability.fiskheroes.electrokinesis.name",
+      "text": "The user’s physical form is supercharged with electricity, be it through metahuman physiology or divine empowerment. Because of this, the user is able to shoot bolts of lightning from their hands by pressing '<key.use>'. These bursts of electricity will damage opponents and can chain between multiple targets, dividing the ability’s"
+    },
+    {
+      "text": "damaging power. Shocking targets submerged in water will increase the area of effect of the lightning's chaining properties.\n\n&lUsers:\n\n• <link=hero.fiskheroes.black_lightning>Black Lightning</link>\n• <link=hero.fiskheroes.shazam_dceu>Shazam (DCEU)</link>"
+    },
+    {
+      "id": "ability.fiskheroes.energy_projection",
+      "header": "ability.fiskheroes.energy_projection.name",
+      "text": "The user’s body is saturated with cosmic energies and chronal radiation, which they may manipulate in the form of powerful energy blasts. By holding '<key.energyProjection>', the user can fire a constant concussive energy blast which will deal a significant amount of damage over time and knock back opponents."
+    },
+    {
+      "text": "What this attack lacks in range, it more than makes up for in might.\n\n&lUsers:\n\n• <link=hero.fiskheroes.anti_monitor>Anti-Monitor</link>\n• <link=hero.fiskheroes.harbinger>Harbinger</link>\n• <link=hero.fiskheroes.spectre>Spectre</link>\n• <link=hero.fiskheroes.the_monitor>The Monitor</link>"
+    },
+    {
+      "id": "ability.fiskheroes.enhanced_reflexes",
+      "header": "ability.fiskheroes.enhanced_reflexes.name",
+      "text": "The user is granted superhuman response time to stimuli, either by Super Soldier Serum, a connection to the <link=ability.fiskheroes.super_speed>Speedforce</link>, or a different variation of superhuman physiology. The user is capable of catching arrows midair if their hand is empty."
+    },
+    {
+      "text": "&lUsers:\n\n• <link=hero.fiskheroes.anti_monitor>Anti-Monitor</link>\n• <link=hero.fiskheroes.august_heart_comics>August Heart (Comics)</link>\n• <link=hero.fiskheroes.captain_america>Captain America</link>\n• <link=hero.fiskheroes.godspeed_comics>Godspeed (Comics)</link>\n• <link=hero.fiskheroes.kid_flash>Kid Flash</link>\n• <link=hero.fiskheroes.reverse_flash>Reverse-Flash</link>\n• <link=hero.fiskheroes.shazam_dceu>Shazam (DCEU)</link>\n• <link=hero.fiskheroes.spectre>Spectre</link>\n• <link=hero.fiskheroes.the_flash>The Flash</link>\n• <link=hero.fiskheroes.the_flash_hunter>The Flash/Hunter Zolomon</link>\n• <link=hero.fiskheroes.the_flash_jay>The Flash/Jay Garrick</link>\n• <link=hero.fiskheroes.the_monitor>The Monitor</link>"
+    },
+    {
+      "text": "• <link=hero.fiskheroes.the_rival>The Rival</link>\n• <link=hero.fiskheroes.trajectory>Trajectory</link>\n• <link=hero.fiskheroes.zoom>Zoom</link>"
+    },
+    {
+      "id": "ability.fiskheroes.explosion_immunity",
+      "header": "ability.fiskheroes.explosion_immunity.name",
+      "text": "The user’s off-the-charts physical resilience completely protects them from taking damage from explosions of any magnitude.\n\n&lUsers:\n\n• <link=hero.fiskheroes.the_tick>The Tick</link>"
+    },
+    {
+      "id": "ability.fiskheroes.fire_immunity",
+      "header": "ability.fiskheroes.fire_immunity.name",
+      "text": "The user is able to withstand the destructive force of all things thermal, either as an effect of Metahuman physiology, organic-steel biology, or protective gold-titanium armor plating. The user cannot be set on fire, and does not take damage from fire-based hazards or attacks."
+    },
+    {
+      "text": "&lUsers:\n\n• <link=hero.fiskheroes.citizen_steel>Citizen Steel</link>\n• <link=hero.fiskheroes.colossus_xmen>Colossus (X-Men)</link>\n• <link=hero.fiskheroes.firestorm_jax>Firestorm/Jax Jackson</link>\n• <link=hero.fiskheroes.firestorm>Firestorm/Ronnie Raymond</link>\n• <link=hero.fiskheroes.iron_man>Iron-Man</link>\n• <link=hero.fiskheroes.savitar>Savitar</link>\n• <link=hero.fiskheroes.shazam_dceu>Shazam (DCEU)</link>\n• <link=hero.fiskheroes.the_tick>The Tick</link>"
+    },
+    {
+      "id": "ability.fiskheroes.flight",
+      "header": "ability.fiskheroes.flight.name",
+      "text": "The user’s extraordinary physiology allows them to alter their density at will, which can be used to negate the effects of gravity and simulate flight. Further, the user is capable of telekinetically manipulating their own cells, allowing them to travel across space omnidirectionally with great speed."
+    },
+    {
+      "text": "&lUsers:\n\n• <link=hero.fiskheroes.martian_manhunter>Martian Manhunter</link>\n• <link=hero.fiskheroes.martian_manhunter_comics>Martian Manhunter (Comics)</link>\n• <link=hero.fiskheroes.obsidian>Obsidian</link>\n• <link=hero.fiskheroes.shazam_dceu>Shazam (DCEU)</link>\n• <link=hero.fiskheroes.spectre>Spectre</link>\n• <link=hero.fiskheroes.vision>Vision</link>"
+    },
+    {
+      "id": "ability.fiskheroes.geokinesis",
+      "header": "ability.fiskheroes.geokinesis.name",
+      "text": "Metahuman physiology has altered the user's DNA so that they are attuned to the vibrations of Earth’s tectonic plates. The user can use this connection to manipulate tremors and the vibrational energy of matter as targeted, powerful weapons. By holding '<key.earthquake>' and pressing '<key.use>' on the ground, the user can instigate tremors in"
+    },
+    {
+      "text": "the surrounding area, damaging and launching mobs. The user can also create a powerful explosion by holding '<key.groundSmash>' and pressing '<key.use>' on a block.\n\n&lUsers:\n\n• <link=hero.fiskheroes.geomancer>Geomancer</link>"
+    },
+    {
+      "id": "ability.fiskheroes.gliding",
+      "header": "ability.fiskheroes.gliding.name",
+      "text": "Through the use of an experimental \"Memory Cloth\" designed by the Research & Development department of Wayne Enterprises, the user is granted the ability to glide through the air, negating any risk of fall damage and easily travelling great distances. This is achieved by running an electric current through the"
+    },
+    {
+      "text": "user's Memory Cloth cape, instantly rigidifying it into a lightweight airfoil. Pressing '<key.jump>' while in the air activates this ability.\n\n&lUsers:\n\n• <link=hero.fiskheroes.batman_dceu>Batman (DCEU)</link>"
+    },
+    {
+      "id": "ability.fiskheroes.gliding_flight",
+      "header": "ability.fiskheroes.gliding_flight.name",
+      "text": "The user employs a modified EXO-7 Falcon wingsuit to simulate flight by means of accelerated gliding activated by pressing '<key.jump>'. The EXO-7 Falcon is fitted with state-of-the-art carbon fiber wings that are lightweight enough to allow the user to glide through the air, and sturdy to the point that, by flying into opponents,"
+    },
+    {
+      "text": "they may serve as an effective cutting weapon. The Falcon's modular jetpack allows the user to regain lost altitude freely and move at incredible speeds by holding '<key.forward>'.\n\n&lUsers:\n\n• <link=hero.fiskheroes.falcon>Falcon</link>"
+    },
+    {
+      "id": "ability.fiskheroes.healing_factor",
+      "header": "ability.fiskheroes.healing_factor.name",
+      "text": "The user's dormant mutant genes have been evolved by an experimental serum and triggered by extreme stress, gifting the user with incredible healing abilities and resistance to all earthly ailments. Within a few seconds any damage done to the body, short of total disintegration, will be completely healed."
+    },
+    {
+      "text": "This also includes immunity to the effects of Nausea and Poison.\n\n&lUsers:\n\n• <link=hero.fiskheroes.deadpool_xmen>Deadpool (X-Men)</link>"
+    },
+    {
+      "id": "ability.fiskheroes.heat_resistance",
+      "header": "ability.fiskheroes.heat_resistance.name",
+      "text": "Fire-resistant attire and a natural tolerance for pain offer the user brief protection from flame and the ability to endure heat-based damage with far less complaining. The user may stand in fire for a few seconds before getting caught on fire, and fire damage is halved."
+    },
+    {
+      "text": "&lUsers:\n\n• <link=hero.fiskheroes.heatwave>Heatwave</link>"
+    },
+    {
+      "id": "ability.fiskheroes.heat_vision",
+      "header": "ability.fiskheroes.heat_vision.name",
+      "text": "The user can project powerful beams of agitated energy from either their eyes via their Martian physiology or from an Infinity Stone embedded in their forehead. These sustained blasts of \"hard light\" can damage targets from afar and melt ice. Heat Vision is activated by holding '<key.heatVision>', while Mind Stone blasts can be used via '<key.mindStoneBlast>'."
+    },
+    {
+      "text": "&lUsers:\n\n•<link=hero.fiskheroes.martian_manhunter_comics> Martian Manhunter (Comics)</link>\n•<link=hero.fiskheroes.vision> Vision</link>"
+    },
+    {
+      "id": "ability.fiskheroes.hover",
+      "header": "ability.fiskheroes.hover.name",
+      "text": "A sub-ability of <link=ability.fiskheroes.propelled_flight>Propelled Flight</link>, where whatever flight mechanism that is in place — be it repulsor tech, high powered propulsion jet, or Metahuman physiology — allows the user to remain stationary midair by pressing '<key.hover>'. In this state, they may freely move laterally."
+    },
+    {
+      "text": "&lUsers:\n\n• <link=hero.fiskheroes.atom>Atom</link>\n• <link=hero.fiskheroes.black_lightning>Black Lightning</link>\n• <link=hero.fiskheroes.iron_man>Iron-Man</link>"
+    },
+    {
+      "id": "ability.fiskheroes.intangibility",
+      "header": "ability.fiskheroes.intangibility.name",
+      "text": "Martian physiology allows the user control over the quantum state of their molecules. By both altering their own density and shifting their mass out of vibrational phase with the adjacent matter, the user can freely phase through solid substances with no difficulty."
+    },
+    {
+      "text": "Certain molecules and materials of the subatomic world are immune to this ability, however. Intangibility is activated by pressing '<key.intangibility>'.\n\n&lUsers:\n\n• <link=hero.fiskheroes.martian_manhunter>Martian Manhunter</link>\n• <link=hero.fiskheroes.martian_manhunter_comics>Martian Manhunter (Comics)</link>"
+    },
+    {
+      "id": "ability.fiskheroes.invisibility",
+      "header": "ability.fiskheroes.invisibility.name",
+      "text": "Martian physiology enables the user to cause the biopolymers in their body to lose their ability to reflect light, rendering them - as well as whatever they are holding - invisible to normal light and therefore human sight. However, the effectiveness of this ability is progressively reduced by movement."
+    },
+    {
+      "text": "Use Invisibility by pressing '<key.invisibility>'.\n\n&lUsers:\n\n• <link=hero.fiskheroes.martian_manhunter>Martian Manhunter</link>\n• <link=hero.fiskheroes.martian_manhunter_comics>Martian Manhunter (Comics)</link>"
+    },
+    {
+      "id": "ability.fiskheroes.leaping",
+      "header": "ability.fiskheroes.leaping.name",
+      "text": "A product of superhuman agility or immense strength, Leaping allows the user to leap great distances by jumping while sprinting by pressing '<key.jump>'. This mode of transport is effective, but comes at the cost of hunger."
+    },
+    {
+      "text": "&lUsers:\n\n• <link=hero.fiskheroes.anti_monitor>Anti-Monitor</link>\n• <link=hero.fiskheroes.atom_smasher>Atom-Smasher</link>\n• <link=hero.fiskheroes.black_panther>Black Panther</link>\n• <link=hero.fiskheroes.colossus_xmen>Colossus (X-Men)</link>\n• <link=hero.fiskheroes.the_tick>The Tick</link>"
+    },
+    {
+      "id": "ability.fiskheroes.propelled_flight",
+      "header": "ability.fiskheroes.propelled_flight.name",
+      "text": "The user is granted flight through artificial means. Be it through <link=ability.fiskheroes.repulsor_blast>repulsor</link> tech, high powered propulsion jets, or even through the recoil generated by <link=ability.fiskheroes.pyrokinesis>flame</link> and <link=ability.fiskheroes.electrokinesis>lightning</link> blasts, the user can freely move through the air with speed by holding '<key.jump>'."
+    },
+    {
+      "text": "&lUsers:\n\n• <link=hero.fiskheroes.atom>Atom</link>\n• <link=hero.fiskheroes.black_lightning>Black Lightning</link>\n• <link=hero.fiskheroes.firestorm>Firestorm/Ronnie Raymond</link>\n• <link=hero.fiskheroes.firestorm_jax>Firestorm/Jax Jackson</link>\n• <link=hero.fiskheroes.iron_man>Iron-Man</link>"
+    },
+    {
+      "id": "ability.fiskheroes.pyrokinesis",
+      "header": "ability.fiskheroes.pyrokinesis.name",
+      "text": "Metahuman physiology has altered the user's biological processes, virtually turning them into a nuclear reactor. The user can release the thermal energy they create as a powerful weapon. By pressing '<key.use>', the user can fire concentrated blasts of flame with concussive force."
+    },
+    {
+      "text": "By holding '<key.shoot>', the user can emit a constant, slightly weaker ray of fire.\n\n&lUsers:\n\n• <link=hero.fiskheroes.firestorm_jax>Firestorm/Jax Jackson</link>\n• <link=hero.fiskheroes.firestorm>Firestorm/Ronnie Raymond</link>"
+    },
+    {
+      "id": "ability.fiskheroes.repulsor_blast",
+      "header": "ability.fiskheroes.repulsor_blast.name",
+      "text": "Advanced particle weapons built into the gauntlets of the Iron Man suit allow the user to attack targets with concussive beams from afar. By aiming using '<key.aim>' and pressing '<key.use>', the user can blast opponents with damaging rays that require a brief charging period between each use."
+    },
+    {
+      "text": "&lUsers:\n\n• <link=hero.fiskheroes.iron_man>Iron-Man</link>"
+    },
+    {
+      "id": "ability.fiskheroes.retractable_shield",
+      "header": "ability.fiskheroes.retractable_shield.name",
+      "text": "The user is equipped with a sophisticated lead-alloy shield that is stored within their gauntlet. At any time, the user may extend this shield by pressing '<key.shield>' to do increased punching damage to opponents and block attacks by holding '<key.use>'."
+    },
+    {
+      "text": "&lUsers:\n\n• <link=hero.fiskheroes.guardian>Guardian</link>"
+    },
+    {
+      "id": "ability.fiskheroes.shape_shifting",
+      "header": "ability.fiskheroes.shape_shifting.name",
+      "text": "Martian physiology grants the user control over the quantum state of their molecules.  This affords the user the ability to alter the molecular structure of their body's biopolymers and manipulate them into any construct they desire at will. By pressing '<key.shapeShift>', the user can nearly indistinguishably emulate the appearance and"
+    },
+    {
+      "text": "attire of any person by using their username. This person’s skin, tag, and cape will all be reproduced.\n\n&lUsers:\n\n• <link=hero.fiskheroes.martian_manhunter>Martian Manhunter</link>\n• <link=hero.fiskheroes.martian_manhunter_comics>Martian Manhunter (Comics)</link>"
+    },
+    {
+      "id": "ability.fiskheroes.size_manipulation",
+      "header": "ability.fiskheroes.size_manipulation.name",
+      "text": "Through the use of Pym Particles, nanites, or Metahuman physiology, the user can alter the distance between their individual atoms, manipulating their physical size and density. Users who employ this ability to grow in size gain strength and reach, while the increased density of shrunken users allows them to strike"
+    },
+    {
+      "text": "with more force and perform superhuman physical feats. However, the ability to shrink comes at a cost: Remaining miniaturized for prolonged periods of time alters the user's \"tangible mass\", which eventually destabilizes their size regulator and decreases their size to that of an atom. While this allows access to the enigmatic Quantum Realm, problems may arise from growing back to regular size."
+    },
+    {
+      "text": "The user can shrink themselves by holding '<key.shrink>' and enlarge via '<key.grow>'.\n\n&lUsers:\n\n• <link=hero.fiskheroes.ant_man>Ant-Man</link>\n• <link=hero.fiskheroes.anti_monitor>Anti-Monitor</link>\n• <link=hero.fiskheroes.atom>Atom</link>\n• <link=hero.fiskheroes.atom_smasher>Atom-Smasher</link>"
+    },
+    {
+      "id": "ability.fiskheroes.steel_transformation",
+      "header": "ability.fiskheroes.steel_transformation.name",
+      "text": "Due to the augmentation of a biomolecular enhancer, the user is able to transform their entire body into an organic alloy similar to steel. In this state, the user is stronger, faster, more resilient to attacks, and granted a <link=weakness.fiskheroes.fire>limited imperviousness to heat</link>. However, the user can only use their steel form for a"
+    },
+    {
+      "text": "brief period of time; if the ability’s status is fully depleted, the user will be forcefully reverted to their normal state, where they will then have to wait for the ability to recharge.\n\n&lUsers:\n\n• <link=hero.fiskheroes.citizen_steel>Citizen Steel</link>"
+    },
+    {
+      "id": "ability.fiskheroes.super_speed",
+      "header": "ability.fiskheroes.super_speed.name",
+      "text": "A Metahuman connection to the Speedforce - an unexplored inter-dimensional source of dark matter — grants the user the ability to move at incredible speeds. Experienced Speedsters can surpass the speed of sound. Super-Speed can be toggled by pressing '<key.superSpeed>', and by using '<key.decelerate>' and '<key.accelerate>', the"
+    },
+    {
+      "text": "user can increase or decrease their velocity within their limits. The user’s upper ceiling of movement speed can be temporarily augmented by the use of the speed drug <link=item.velocity_nine>Velocity 9</link>. One can also further develop their connection to the Speedforce through rigorous training on a <link=tile.treadmill>Cosmic Treadmill</link> or via <link=tile.tachyonic_particle_core>Tachyon</link> enhancement."
+    },
+    {
+      "text": "The colour of the lightning Speedsters create while they run is dictated by the nature of their connection to the Speedforce.\n\n&lUsers:\n\n• <link=hero.fiskheroes.august_heart_comics>August Heart (Comics)</link>\n• <link=hero.fiskheroes.godspeed_comics>Godspeed (Comics)</link>\n• <link=hero.fiskheroes.kid_flash>Kid Flash</link>\n• <link=hero.fiskheroes.reverse_flash>Reverse-Flash</link>\n• <link=hero.fiskheroes.savitar>Savitar</link>\n• <link=hero.fiskheroes.shazam_dceu>Shazam (DCEU)</link>"
+    },
+    {
+      "text": "• <link=hero.fiskheroes.the_flash>The Flash</link>\n• <link=hero.fiskheroes.the_flash_hunter>The Flash/Hunter Zolomon</link>\n• <link=hero.fiskheroes.the_flash_jay>The Flash/Jay Garrick</link>\n• <link=hero.fiskheroes.the_rival>The Rival</link>\n• <link=hero.fiskheroes.trajectory>Trajectory</link>\n• <link=hero.fiskheroes.zoom>Zoom</link>"
+    },
+    {
+      "id": "ability.fiskheroes.superhuman_durability",
+      "header": "ability.fiskheroes.superhuman_durability.name",
+      "text": "The user is granted near impenetrability, either by augmented skin or some sort of armour. Projectiles such as arrows or Batarangs ricochet off of the user, causing no damage.\n\n&lUsers:\n\n• <link=hero.fiskheroes.anti_monitor>Anti-Monitor</link>\n• <link=hero.fiskheroes.atom_smasher>Atom-Smasher</link>"
+    },
+    {
+      "text": "• <link=hero.fiskheroes.black_lightning>Black Lightning</link>\n• <link=hero.fiskheroes.black_panther>Black Panther</link>\n• <link=hero.fiskheroes.citizen_steel>Citizen Steel</link>\n• <link=hero.fiskheroes.colossus_xmen>Colossus (X-Men)</link>\n• <link=hero.fiskheroes.harbinger>Harbinger</link>\n• <link=hero.fiskheroes.savitar>Savitar</link>\n• <link=hero.fiskheroes.shazam_dceu>Shazam (DCEU)</link>\n• <link=hero.fiskheroes.the_monitor>The Monitor</link>\n• <link=hero.fiskheroes.the_tick>The Tick</link>\n• <link=hero.fiskheroes.vision>Vision</link>"
+    },
+    {
+      "id": "ability.fiskheroes.teleportation",
+      "header": "ability.fiskheroes.teleportation.name",
+      "text": "The user is psychically attuned to the natural energies of reality, space, and time. Through concentration, the user may tear a \"rift\" in the spacetime continuum which will instantly transport them to a location in space of their choosing. By pressing '<key.teleport>', the user will be enveloped in a breach which will teleport"
+    },
+    {
+      "text": "them to wherever their crosshairs are pointed.\n\n&lUsers:\n\n• <link=hero.fiskheroes.anti_monitor>Anti-Monitor</link>\n• <link=hero.fiskheroes.harbinger>Harbinger</link>\n• <link=hero.fiskheroes.spectre>Spectre</link>\n• <link=hero.fiskheroes.the_monitor>The Monitor</link>"
+    },
+    {
+      "id": "ability.fiskheroes.throwing_stars",
+      "header": "ability.fiskheroes.throwing_stars.name",
+      "text": "Years of rigorous training have rendered the user an expert in the use of thrown projectiles. By pressing '<key.utilityReset>', the user can toggle the use of deadly shurikens, which can be thrown at targets by using '<key.use>'. Continued use of this item requires brief recharge periods."
+    },
+    {
+      "text": "&lUsers:\n\n• <link=hero.fiskheroes.prometheus>Prometheus</link>"
+    },
+    {
+      "id": "ability.fiskheroes.utility_belt",
+      "header": "ability.fiskheroes.utility_belt.name",
+      "text": "The user is trained in the application of an experienced vigilante's toolbelt, chock-full of cutting-edge weapons and accessories. The user can toggle access to their gadgets by pressing '<key.utilityReset>', and cycle through its several tools by using '<key.utilitySwitch>'. The Utility Belt is equipped with throwing Batarangs,"
+    },
+    {
+      "text": "a powerful cryo-grenade that impairs <link=ability.fiskheroes.super_speed>Speedsters</link>, and a compact smoke bomb that disorients opponents. Continued use of these items requires brief recharge periods.\n\n&lUsers:\n\n• <link=hero.fiskheroes.batman_dceu>Batman (DCEU)</link>"
+    }
+  ]
+}

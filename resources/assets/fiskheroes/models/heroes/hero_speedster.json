@@ -1,0 +1,6 @@
+{
+  "parent": "fiskheroes:hero_basic",
+  "vars": {
+    "SPEEDING": "entity.getData('fiskheroes:speeding')"
+  }
+}

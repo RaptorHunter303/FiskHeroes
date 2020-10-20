@@ -1,0 +1,18 @@
+{
+  "parent": "fiskheroes:hero_basic",
+  "resources": {
+    "layer1": "fiskheroes:rip_hunter_time_master",
+    "layer2": "fiskheroes:rip_hunter_pants"
+  },
+  "itemIcons": {
+    "HELMET": "rip_hunter_0",
+    "CHESTPLATE": "%s_1",
+    "LEGGINGS": "rip_hunter_2",
+    "BOOTS": "rip_hunter_3"
+  },
+  "custom": {
+    "fiskheroes:energy_bolt": {
+      "color": "0x005EFF"
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "parent": "fiskheroes:hero_basic",
+  "resources": {
+    "layer1": "fiskheroes:iron_man_layer1",
+    "layer2": "fiskheroes:iron_man_layer2",
+    "lights_layer1": "fiskheroes:iron_man_lights_layer1",
+    "lights_layer2": "fiskheroes:iron_man_lights_layer2",
+    "lights_suit": "fiskheroes:iron_man_lights_suit",
+    "suit": "fiskheroes:iron_man_suit.tx.json",
+    "mask": "fiskheroes:iron_man_mask.tx.json"
+  },
+  "texture": {
+    "vars:SUIT_OPEN": {
+      "true": "suit"
+    },
+    "renderLayer": {
+      "LEGGINGS": "layer2"
+    },
+    "default": "layer1"
+  },
+  "lights": {
+    "vars:MASK_OPEN": {
+      "true": {
+        "renderLayer": {
+          "HELMET": "null"
+        }
+      }
+    },
+    "vars:SUIT_OPEN": {
+      "true": "lights_suit"
+    },
+    "renderLayer": {
+      "LEGGINGS": "lights_layer2"
+    },
+    "default": "lights_layer1"
+  },
+  "custom": {
+    "fiskheroes:metal_heat": {
+      "applicable": ["HELMET", "CHESTPLATE", "LEGGINGS", "BOOTS"],
+      "texture": "null",
+      "data": "fiskheroes:metal_heat"
+    },
+    "fiskheroes:propelled_flight": {
+      "particleType": "IRON_MAN"
+    },
+    "fiskheroes:opening_mask": {
+      "applicable": ["HELMET"],
+      "texture": "mask",
+      "rotation": [-80.0, 0.0, 0.0],
+      "translation": [0.0, -3.5, -7.0],
+      "data": "fiskheroes:mask_open_timer2"
+    }
+  },
+  "vars": {
+    "SUIT_OPEN": "entity.getData('fiskheroes:suit_open_timer') > 0",
+    "MASK_OPEN": "entity.getData('fiskheroes:mask_open_timer2') > 0"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "texture": {
+    "in": "fiskheroes:atom_mask",
+    "transform": [
+      {
+        "operation": "XOR",
+        "supply": "fiskheroes:xor/atom_mask_<TIMER>"
+      }
+    ],
+    "out": "fiskheroes:generated/atom_mask_<TIMER>"
+  },
+  "getters": {
+    "TIMER": {
+      "key": "fiskheroes:mask_open_timer",
+      "values": [1, 2, 3, 4, 5]
+    }
+  }
+}

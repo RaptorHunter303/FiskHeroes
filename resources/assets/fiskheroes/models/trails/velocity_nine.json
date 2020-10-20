@@ -1,0 +1,6 @@
+{
+  "parent": "fiskheroes:lightning_base",
+  "constants": {
+    "COLOR": "0x0059FF"
+  }
+}

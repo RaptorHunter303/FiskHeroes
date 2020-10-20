@@ -1,0 +1,17 @@
+{
+  "pages": [
+    {
+      "id": "toc"
+    }
+  ],
+  "chapters": [
+    "cactus_journal/one.json",
+    "cactus_journal/two.json",
+    "cactus_journal/three.json",
+    "cactus_journal/four.json",
+    "cactus_journal/five.json",
+    "cactus_journal/six.json",
+    "cactus_journal/seven.json"
+  ],
+  "background": "fiskheroes:textures/gui/cactus_journal.png"
+}

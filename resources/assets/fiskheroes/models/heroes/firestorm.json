@@ -1,0 +1,18 @@
+{
+  "parent": "fiskheroes:hero_basic",
+  "resources": {
+    "layer1": "fiskheroes:firestorm_layer1",
+    "layer2": "fiskheroes:firestorm_layer2"
+  },
+  "custom": {
+    "fiskheroes:flames": {
+      "applicable": ["CHESTPLATE"],
+      "requiresFullSuit": true,
+      "scaleRatio": 1,
+      "opacity": 0.7
+    },
+    "fiskheroes:propelled_flight": {
+      "particleType": "FIRESTORM"
+    }
+  }
+}

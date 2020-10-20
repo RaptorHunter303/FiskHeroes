@@ -1,0 +1,7 @@
+{
+  "parent": "fiskheroes:hero_basic",
+  "resources": {
+    "layer1": "fiskheroes:arrow_layer1",
+    "layer2": "fiskheroes:arrow_layer2"
+  }
+}

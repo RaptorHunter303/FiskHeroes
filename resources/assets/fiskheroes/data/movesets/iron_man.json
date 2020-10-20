@@ -1,0 +1,15 @@
+{
+//  "color": "0xC41F27",
+//  "moves": [
+//    {
+//      "id": "fiskheroes:charged_punch",
+//      "icon": "fiskheroes:cap_throw",
+//      "modifiers": {
+//        0.0 : { "DAMAGE": 1.5 },
+//        0.3 : { "DAMAGE": 2.5, "KNOCKBACK": 1 },
+//        0.65: { "DAMAGE": 4.0, "KNOCKBACK": 2.5 },
+//        1.0 : { "DAMAGE": 5.0, "KNOCKBACK": 4 }
+//      }
+//    }
+//  ]
+}

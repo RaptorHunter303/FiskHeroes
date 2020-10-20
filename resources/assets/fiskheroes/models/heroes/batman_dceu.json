@@ -1,0 +1,15 @@
+{
+  "parent": "fiskheroes:hero_basic",
+  "resources": {
+    "layer1": "fiskheroes:batman_dceu_layer1",
+    "layer2": "fiskheroes:batman_dceu_layer2",
+    "cape": "fiskheroes:batman_dceu_cape"
+  },
+  "custom": {
+    "fiskheroes:cape": {
+      "applicable": ["CHESTPLATE"],
+      "texture": "cape",
+      "length": 22
+    }
+  }
+}

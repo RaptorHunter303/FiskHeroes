@@ -1,0 +1,39 @@
+{
+  "name": "Weaknesses",
+  "pages": [
+    {
+      "id": "generated/summary"
+    },
+    {
+      "id": "weakness.fiskheroes.cold",
+      "header": "weakness.fiskheroes.cold.name",
+      "text": "Metahuman physiology has altered the user's biological processes, virtually turning them into a <link=hero.fiskheroes.firestorm>nuclear reactor</link>. However, this has increased the user's sensitivity to cold-based attacks, which disrupts the user's ability to manipulate nuclear energy. The user takes twice as much damage from cold-based attacks." // Here
+    },
+    {
+      "id": "weakness.fiskheroes.eternium",
+      "header": "weakness.fiskheroes.eternium.name",
+      "text": "The Rock of Eternity has imbued the user with the powers of 6 mythological figures, effectively transforming them into a <link=hero.fiskheroes.shazam_dceu>god</link>. However, with these gifts comes a significant weakness: In the presence of <link=item.eternium_shard>Eternium</link>, the user will be stripped of their powers."
+    },
+    {
+      "text": "If the user is within 5 blocks of any Eternium-related blocks or has any of these items in their inventory, they will be unable to use any of their suit abilities."
+    },
+    {
+      "id": "weakness.fiskheroes.fire",
+      "header": "weakness.fiskheroes.fire.name",
+      "text": "A psychosomatic fear of fire is engrained in the user's <link=hero.fiskheroes.martian_manhunter>Martian</link> genetics, which greatly impacts their ability to employ their abilities. The user will experience Nausea, Slowness, and Weakness if within 5 blocks of fire, lava, or an entity on fire." // Here
+    },
+    {
+      "id": "weakness.fiskheroes.heat",
+      "header": "weakness.fiskheroes.heat.name",
+      "text": "Metahuman physiology of the <link=hero.fiskheroes.killer_frost>cryogenic variation</link> grants the user the ability to manipulate ice as an effective weapon. However, this has increased the user's sensitivity to heat-based attacks, which disrupts the user's ice-healing. The user takes twice as much damage from heat-based attacks." // Here
+    },
+    {
+      "id": "weakness.fiskheroes.metal_skin",
+      "header": "weakness.fiskheroes.metal_skin.name",
+      "text": "This weakness affects those who are <link=hero.fiskheroes.iron_man>encased in</link> or <link=hero.fiskheroes.colossus_xmen>made of</link> metal or an organic facsimile. If the user is exposed to a scorchingly hot substance such as lava, their metallic integrity will gradually begin to diminish. If the user remains exposed to this heat source for too long, they will eventually catch fire and begin taking damage." // Here
+    },
+    {
+      "text": "Those afflicted with Metal Skin may cool down gradually by escaping the source of heat, or immediately by submerging themselves in water."
+    }
+  ]
+}

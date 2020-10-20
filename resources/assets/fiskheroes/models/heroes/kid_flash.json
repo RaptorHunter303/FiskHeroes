@@ -1,0 +1,13 @@
+{
+  "parent": "fiskheroes:hero_speedster",
+  "resources": {
+    "layer1": "fiskheroes:kid_flash_layer1",
+    "layer2": "fiskheroes:kid_flash_layer2"
+  },
+  "custom": {
+    "fiskheroes:trail": {
+      "type": "fiskheroes:lightning_amber",
+      "conditionals": ["vars:SPEEDING"]
+    }
+  }
+}

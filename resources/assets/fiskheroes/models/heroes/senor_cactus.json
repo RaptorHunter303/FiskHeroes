@@ -1,0 +1,20 @@
+{
+  "parent": "fiskheroes:hero_basic",
+  "resources": {
+    "layer1": "fiskheroes:senor_cactus_layer1",
+    "layer2": "fiskheroes:senor_cactus_layer2",
+    "cape": "fiskheroes:senor_cactus_cape",
+    "hat": "fiskheroes:senor_cactus_sombrero"
+  },
+  "custom": {
+    "fiskheroes:cape": {
+      "applicable": ["CHESTPLATE"],
+      "texture": "cape",
+      "length": 24
+    },
+    "fiskheroes:sombrero": {
+      "applicable": ["HELMET"],
+      "texture": "hat"
+    }
+  }
+}

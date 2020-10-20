@@ -1,0 +1,13 @@
+{
+  "parent": "fiskheroes:trajectory",
+  "resources": {
+    "layer1": "fiskheroes:trajectory_jesse_layer1",
+    "layer2": "fiskheroes:trajectory_jesse_layer2"
+  },
+  "custom": {
+    "fiskheroes:trail": {
+      "type": "fiskheroes:lightning_amber",
+      "conditionals": ["vars:SPEEDING"]
+    }
+  }
+}

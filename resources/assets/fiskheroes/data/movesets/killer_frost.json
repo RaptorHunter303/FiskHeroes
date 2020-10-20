@@ -1,0 +1,25 @@
+{
+//  "color": "0x96EBFF",
+//  "moves": [
+//    {
+//      "id": "fiskheroes:icicles",
+//      "icon": "fiskheroes:kfrost_icicles",
+//      "ability": "fiskheroes:cryokinesis",
+//      "modifiers": {
+//        0.0: { "QUANTITY": 1 },
+//        0.2: { "QUANTITY": 2 },
+//        0.5: { "QUANTITY": 3 },
+//        0.9: { "QUANTITY": 4 },
+//        1.4: { "QUANTITY": 5 }
+//      }
+//    },
+//    {
+//      "id": "fiskheroes:ice_wall",
+//      "icon": "fiskheroes:kfrost_wall",
+//      "ability": "fiskheroes:cryokinesis",
+//      "modifiers": {
+//        0.2: { "QUANTITY": 2 }
+//      }
+//    }
+//  ]
+}

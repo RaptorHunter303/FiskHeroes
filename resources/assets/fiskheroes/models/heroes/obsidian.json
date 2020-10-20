@@ -1,0 +1,28 @@
+{
+  "parent": "fiskheroes:hero_basic",
+  "resources": {
+    "layer1": "fiskheroes:obsidian_layer1",
+    "layer2": "fiskheroes:obsidian_layer2",
+    "cape": "fiskheroes:obsidian_cape"
+  },
+  "custom": {
+    "fiskheroes:cape": {
+      "applicable": ["CHESTPLATE"],
+      "texture": "cape",
+      "length": 24
+    },
+    "fiskheroes:invisibility": {
+      "applicable": ["HELMET", "CHESTPLATE", "LEGGINGS", "BOOTS"],
+      "opacityMin": 0.0,
+      "opacityMax": 1.0,
+      "data": "fiskheroes:shadowform_timer"
+    },
+    "fiskheroes:particle_cloud": {
+      "particles": "fiskheroes:shadow_smoke",
+      "conditionals": ["vars:SHADOWFORM"]
+    }
+  },
+  "vars": {
+    "SHADOWFORM": "entity.getData('fiskheroes:shadowform')"
+  }
+}

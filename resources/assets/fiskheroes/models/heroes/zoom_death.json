@@ -1,0 +1,22 @@
+{
+  "parent": "fiskheroes:zoom",
+  "resources": {
+    "layer1": "fiskheroes:zoom_death_layer1",
+    "layer2": "fiskheroes:zoom_death_layer2"
+  },
+  "lights": {
+    "default": "null"
+  },
+  "itemIcons": {
+    "HELMET": "%s_0",
+    "CHESTPLATE": "%s_1",
+    "LEGGINGS": "zoom_2",
+    "BOOTS": "zoom_3"
+  },
+  "custom": {
+    "fiskheroes:trail": {
+      "type": "fiskheroes:lightning_red",
+      "conditionals": ["vars:SPEEDING"]
+    }
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "parent": "fiskheroes:hero_basic",
+  "resources": {
+    "layer1": "fiskheroes:doctor_strange_layer1",
+    "pants": "fiskheroes:doctor_strange_pants",
+    "pants_robes": "fiskheroes:doctor_strange_pants_robes",
+    "boots": "fiskheroes:doctor_strange_boots",
+    "cape": "fiskheroes:doctor_strange_cape"
+  },
+  "texture": {
+    "renderLayer": {
+      "LEGGINGS": {
+        "wornChestplate": {
+          "fiskheroes:doctor_strange": "pants_robes"
+        },
+        "default": "pants"
+      },
+      "BOOTS": "boots"
+    },
+    "default": "layer1"
+  },
+  "showModel": {
+    "head": ["CHESTPLATE"],
+    "headwear": ["CHESTPLATE"],
+    "body": ["CHESTPLATE", "LEGGINGS"],
+    "rightArm": ["CHESTPLATE"],
+    "leftArm": ["CHESTPLATE"],
+    "rightLeg": ["CHESTPLATE", "LEGGINGS", "BOOTS"],
+    "leftLeg": ["CHESTPLATE", "LEGGINGS", "BOOTS"]
+  },
+  "fixHatLayer": ["CHESTPLATE"],
+  "custom": {
+    "fiskheroes:cape": {
+      "applicable": ["CHESTPLATE"],
+      "texture": "cape",
+      "length": 24
+    },
+    "fiskheroes:ears": {
+      "applicable": ["CHESTPLATE"],
+      "angle": -7,
+      "inset": -0.065
+    },
+    "fiskheroes:spellcasting": {
+      "colorGeneric": "0xFF8000",
+      "colorEarthCrack": "0xB366FF",
+      "colorAtmosphere": "0xFF8000",
+      "colorWhip": "0xFF4800"
+    },
+    "fiskheroes:arm_animation": {
+      "dataSwordPose": "fiskheroes:blade_timer"
+    },
+    "fiskheroes:spell": {
+      "applicable": ["CHESTPLATE"],
+      "shape": "fiskheroes:tao_mandala",
+      "offset": [-1.0, 3.0, 0.0],
+      "rotation": [0.0, 0.0, 0.0],
+      "scale": 0.2,
+      "mirror": true,
+      "color": "0xFF4800",
+      "data": "fiskheroes:spellcast_timer"
+    },
+    "fiskheroes:spell|shield": {
+      "applicable": ["CHESTPLATE"],
+      "shape": "fiskheroes:tao_mandala",
+      "offset": [-4.0, 5.0, -1.0],
+      "rotation": [-15.0, 0.0, 60.0],
+      "scale": 0.6,
+      "mirror": false,
+      "color": "0xFF4800",
+      "data": "entity.getInterpolatedData('fiskheroes:shield_timer') * entity.getInterpolatedData('fiskheroes:shield_blocking_timer')"
+    },
+    "fiskheroes:spell|shield_idle": {
+      "applicable": ["CHESTPLATE"],
+      "shape": "fiskheroes:tao_mandala",
+      "offset": [-1.0, 6.0, 0.0],
+      "rotation": [0.0, 0.0, 10.0],
+      "scale": 0.3,
+      "mirror": true,
+      "color": "0xFF4800",
+      "data": "entity.getInterpolatedData('fiskheroes:shield_timer') * (1 - entity.getInterpolatedData('fiskheroes:shield_blocking_timer'))"
+    },
+    "fiskheroes:spell|sword": {
+      "applicable": ["CHESTPLATE"],
+      "shape": "fiskheroes:eldritch_sword",
+      "offset": [-1.0, 4.4, -4.0],
+      "rotation": [10.0, 0.0, 0.0],
+      "scale": 1.0,
+      "mirror": false,
+      "color": "0xFF4800",
+      "data": "fiskheroes:blade_timer"
+    },
+    "fiskheroes:spell|sword_handle": {
+      "applicable": ["CHESTPLATE"],
+      "shape": "fiskheroes:eldritch_sword_handle",
+      "offset": [-1.0, 4.4, -4.0],
+      "rotation": [10.0, 0.0, 0.0],
+      "scale": 1.0,
+      "mirror": false,
+      "color": "0xFF4800",
+      "data": "fiskheroes:blade_timer"
+    }
+  }
+}

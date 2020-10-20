@@ -1,0 +1,13 @@
+{
+  "parent": "fiskheroes:hero_speedster",
+  "resources": {
+    "layer1": "fiskheroes:the_flash_jay_earth90_layer1",
+    "layer2": "fiskheroes:the_flash_jay_earth90_layer2"
+  },
+  "custom": {
+    "fiskheroes:trail": {
+      "type": "fiskheroes:lightning_orange",
+      "conditionals": ["vars:SPEEDING"]
+    }
+  }
+}
