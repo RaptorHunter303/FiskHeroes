@@ -37,7 +37,7 @@ public interface IAssetSnooper
     default void storeData(ResourceLocation location, byte[] bytes) throws IOException
     {
         getAssets().put(location, () -> new ByteArrayInputStream(bytes));
-        getResourceDomains().add(location.getResourceDomain());
+        getResourceDomains().add(location.getPath());
         JSHeroesEngine.LOGGER.debug("Detecting HeroPack assets: {}", location);
     }
 
