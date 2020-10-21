@@ -1,8 +1,8 @@
 package com.fiskmods.heroes.common.entity;
 
-import net.minecraft.entity.EntityLivingBase;
+import net.minecraft.entity.LivingEntity;
 
 public interface IPiercingProjectile
 {
-    boolean canPierceDurability(EntityLivingBase entity);
+    boolean canPierceDurability(LivingEntity entity);
 }
