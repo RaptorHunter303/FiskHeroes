@@ -6,20 +6,18 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
 
-import cpw.mods.fml.relauncher.Side;
-import cpw.mods.fml.relauncher.SideOnly;
+import net.minecraft.client.gui.screen.MainMenuScreen;
+import net.minecraft.client.renderer.entity.EntityRenderer;
 import net.minecraft.block.Block;
 import net.minecraft.client.Minecraft;
-import net.minecraft.client.gui.GuiMainMenu;
-import net.minecraft.client.renderer.EntityRenderer;
-import net.minecraft.client.renderer.entity.RenderPlayer;
+import net.minecraft.client.renderer.entity.PlayerRenderer;
 import net.minecraft.client.renderer.texture.TextureManager;
-import net.minecraft.client.resources.SimpleReloadableResourceManager;
 import net.minecraft.entity.Entity;
-import net.minecraft.entity.EntityLivingBase;
-import net.minecraft.entity.monster.EntityCreeper;
-import net.minecraft.nbt.NBTTagList;
-import net.minecraft.world.gen.feature.WorldGenMinable;
+import net.minecraft.entity.LivingEntity;
+import net.minecraft.entity.monster.CreeperEntity;
+import net.minecraft.nbt.ListNBT;
+import net.minecraft.resources.SimpleReloadableResourceManager;
+import net.minecraft.world.gen.feature.OreFeature;
 
 public class SHReflection
 {
@@ -34,24 +32,24 @@ public class SHReflection
 
     // Common
     private static GenericMethod<Entity, Void> setSizeMethod;
-    private static GenericMethod<EntityLivingBase, Integer> getArmSwingAnimationEndMethod;
+    private static GenericMethod<LivingEntity, Integer> getArmSwingAnimationEndMethod;
     private static GenericMethod<Entity, Boolean> canTriggerWalkingMethod;
-    private static GenericMethod<EntityCreeper, Void> creeperExplodeMethod;
+    private static GenericMethod<CreeperEntity, Void> creeperExplodeMethod;
 
     public static GenericField<Entity, Integer> nextStepDistanceField;
-    public static GenericField<NBTTagList, List> tagListField;
-    public static GenericField<WorldGenMinable, Block> genMineableOreField;
-    public static GenericField<WorldGenMinable, Integer> genMineableMetaField;
-    public static GenericField<WorldGenMinable, Integer> genMineableNumField;
-    public static GenericField<WorldGenMinable, Block> genMineableStoneField;
+    public static GenericField<ListNBT, List> tagListField;
+    public static GenericField<OreFeature, Block> genMineableOreField;
+    public static GenericField<OreFeature, Integer> genMineableMetaField;
+    public static GenericField<OreFeature, Integer> genMineableNumField;
+    public static GenericField<OreFeature, Block> genMineableStoneField;
 
-    @SideOnly(Side.CLIENT)
+
     public static void client()
     {
-        renderNametagMethod = MethodBuilder.in(RenderPlayer.class, void.class).with(EntityLivingBase.class, double.class, double.class, double.class, String.class, float.class, double.class).find("func_96449_a");
+        renderNametagMethod = MethodBuilder.in(PlayerRenderer.class, void.class).with(LivingEntity.class, double.class, double.class, double.class, String.class, float.class, double.class).find("func_96449_a");
         clearResourcesMethod = MethodBuilder.in(SimpleReloadableResourceManager.class, void.class).with().find("func_110543_a", "clearResources");
 
-        splashTextField = new GenericField(GuiMainMenu.class, String.class, "field_73975_c", "splashText");
+        splashTextField = new GenericField(MainMenuScreen.class, String.class, "field_73975_c", "splashText");
         mapTextureObjectsField = new GenericField(TextureManager.class, Map.class, "field_110585_a", "mapTextureObjects");
         thirdPersonDistanceField = new GenericField(EntityRenderer.class, float.class, "field_78490_B", "thirdPersonDistance");
         defaultResourcePacksField = new GenericField(Minecraft.class, List.class, "field_110449_ao", "defaultResourcePacks");
@@ -60,19 +58,19 @@ public class SHReflection
     public static void common()
     {
         setSizeMethod = MethodBuilder.in(Entity.class, void.class).with(float.class, float.class).find("func_70105_a", "setSize");
-        getArmSwingAnimationEndMethod = MethodBuilder.in(EntityLivingBase.class, int.class).with().find("func_82166_i", "getArmSwingAnimationEnd");
+        getArmSwingAnimationEndMethod = MethodBuilder.in(LivingEntity.class, int.class).with().find("func_82166_i", "getArmSwingAnimationEnd");
         canTriggerWalkingMethod = MethodBuilder.in(Entity.class, boolean.class).with().find("func_70041_e_", "canTriggerWalking");
-        creeperExplodeMethod = MethodBuilder.in(EntityCreeper.class, void.class).with().find("func_146077_cc");
+        creeperExplodeMethod = MethodBuilder.in(CreeperEntity.class, void.class).with().find("func_146077_cc");
 
         nextStepDistanceField = new GenericField(Entity.class, int.class, "field_70150_b", "nextStepDistance");
-        tagListField = new GenericField(NBTTagList.class, List.class, "field_74747_a", "tagList");
-        genMineableOreField = new GenericField(WorldGenMinable.class, Block.class, "field_150519_a");
-        genMineableMetaField = new GenericField(WorldGenMinable.class, int.class, "mineableBlockMeta");
-        genMineableNumField = new GenericField(WorldGenMinable.class, int.class, "field_76541_b", "numberOfBlocks");
-        genMineableStoneField = new GenericField(WorldGenMinable.class, Block.class, "field_150518_c");
+        tagListField = new GenericField(ListNBT.class, List.class, "field_74747_a", "tagList");
+        genMineableOreField = new GenericField(OreFeature.class, Block.class, "field_150519_a");
+        genMineableMetaField = new GenericField(OreFeature.class, int.class, "mineableBlockMeta");
+        genMineableNumField = new GenericField(OreFeature.class, int.class, "field_76541_b", "numberOfBlocks");
+        genMineableStoneField = new GenericField(OreFeature.class, Block.class, "field_150518_c");
     }
 
-    public static void renderNametag(RenderPlayer instance, EntityLivingBase entity, double x, double y, double z, String username, float p_96449_9_, double p_96449_10_)
+    public static void renderNametag(PlayerRenderer instance, LivingEntity entity, double x, double y, double z, String username, float p_96449_9_, double p_96449_10_)
     {
         renderNametagMethod.invoke(instance, entity, x, y, z, username, p_96449_9_, p_96449_10_);
     }
@@ -87,7 +85,7 @@ public class SHReflection
         setSizeMethod.invoke(instance, f, f1);
     }
 
-    public static int getArmSwingAnimationEnd(EntityLivingBase instance)
+    public static int getArmSwingAnimationEnd(LivingEntity instance)
     {
         return getArmSwingAnimationEndMethod.invoke(instance);
     }
@@ -97,7 +95,7 @@ public class SHReflection
         return canTriggerWalkingMethod.invoke(instance);
     }
 
-    public static void creeperExplode(EntityCreeper instance)
+    public static void creeperExplode(CreeperEntity instance)
     {
         creeperExplodeMethod.invoke(instance);
     }
