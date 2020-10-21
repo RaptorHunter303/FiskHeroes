@@ -1,13 +1,14 @@
 package com.fiskmods.heroes.common.item;
 
-import net.minecraft.entity.player.EntityPlayer;
+
+import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ItemStack;
 
 public interface IDualItem
 {
-    float getSwingProgress(EntityPlayer player, float partialTicks);
+    float getSwingProgress(PlayerEntity player, float partialTicks);
 
-    boolean onEntitySwingOffHand(EntityPlayer player, ItemStack itemstack);
+    boolean onEntitySwingOffHand(PlayerEntity player, ItemStack itemstack);
 
-    boolean onSwingEnd(EntityPlayer player, ItemStack itemstack, boolean right);
+    boolean onSwingEnd(PlayerEntity player, ItemStack itemstack, boolean right);
 }
