@@ -32,6 +32,6 @@ public class Vec3Container
 
     public static Vec3Container wrap(Entity entity)
     {
-        return new Vec3Container(() -> entity.posX, () -> entity.boundingBox.minY + entity.height / 2, () -> entity.posZ);
+        return new Vec3Container(() -> entity.getPosX(), () -> entity.getBoundingBox().minY + entity.getPosYHeight(2) / 2, () -> entity.getPosZ());
     }
 }
