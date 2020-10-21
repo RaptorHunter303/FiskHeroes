@@ -1,20 +1,21 @@
 package com.fiskmods.heroes;
 
 import com.fiskmods.heroes.common.item.ModItems;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.ItemStack;
 
-import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.item.Item;
-
-public class CreativeTabArchery extends CreativeTabs
+public class CreativeTabArchery extends ItemGroup
 {
     public CreativeTabArchery()
     {
-        super(FiskHeroes.MODID + ".archery");
+        super(FiskHeroes.MOD_ID + ".archery");
     }
 
+
+
+
     @Override
-    public Item getTabIconItem()
-    {
-        return ModItems.compoundBow;
+    public ItemStack createIcon() {
+        return new ItemStack(ModItems.compoundBow);
     }
 }
