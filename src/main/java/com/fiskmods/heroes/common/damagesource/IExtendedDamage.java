@@ -18,7 +18,7 @@ public interface IExtendedDamage
             @Override
             public boolean isPresent(DamageSource source)
             {
-                return source == DamageSource.cactus || super.isPresent(source);
+                return source == DamageSource.CACTUS || super.isPresent(source);
             }
         },
         SHURIKEN,
